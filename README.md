@@ -1,5 +1,3 @@
-# adcs
-Attitude Determination and Control System
 <h1 align="center">
 	ATTITUDE DETERMINATION AND CONTROL SYSTEM
 	<br>
