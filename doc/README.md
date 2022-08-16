@@ -3,7 +3,7 @@
 	<br>
 </h1>
 
-<h4 align="center">Documentation of the OBDH2 Module.</h4>
+<h4 align="center">Documentation of the ADCS Module.</h4>
 
 <p align="center">
     <a href="https://github.com/spacelab-ufsc/spacelab#versioning">
