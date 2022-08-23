@@ -72,7 +72,7 @@
         \begin{column}[t]{0.5\textwidth}
             \begin{figure}[!ht]
                 \begin{center}
-                    \includegraphics[width=5.5cm]{figures/pcb_adcs.png}
+                    \includegraphics[width=5.5cm]{figures/Image axles.png}
                 \end{center}
             \end{figure}
         \end{column}
@@ -202,7 +202,7 @@ strength: $0.2 Am^2$ \textcolor{red}{TBC}.
 \begin{frame}{Specifications}
 
     \begin{itemize}
-        \item Microcontroller: STM32F303xxxxx \textcolor{red}{TBC}
+        \item Microcontroller: STM32F303RCT6 
         \item Sensors:
         \begin{itemize}
             \item Voltage sensor (4x)
@@ -248,7 +248,7 @@ strength: $0.2 Am^2$ \textcolor{red}{TBC}.
 
     \begin{figure}[!ht]
         \begin{center}
-            \includegraphics[width=11cm]{figures/ADCS-V0.1.drawio.png}
+            \includegraphics[width=11cm]{figures/ADCS.drawio (2).png}
         \end{center}
     \end{figure}
 
@@ -258,7 +258,7 @@ strength: $0.2 Am^2$ \textcolor{red}{TBC}.
 
     \begin{figure}[!ht]
         \begin{center}
-            \includegraphics[width=11cm]{figures/Malha_Magnetorquers.drawio (1).png}
+            \includegraphics[width=11cm]{figures/Malha_Magnetorquers.drawio (2).png}
         \end{center}
     \end{figure}
 
@@ -268,17 +268,7 @@ strength: $0.2 Am^2$ \textcolor{red}{TBC}.
 
     \begin{figure}[!ht]
         \begin{center}
-            \includegraphics[width=11cm]{figures/Malha_Detumbling.drawio.png}
-        \end{center}
-    \end{figure}
-
-\end{frame}
-
-\begin{frame}{Pointing Loop Control Diagram}
-
-    \begin{figure}[!ht]
-        \begin{center}
-            \includegraphics[width=11cm]{figures/Malha_Pointing.drawio.png}
+            \includegraphics[width=11cm]{figures/Malha_Attitude_controller.drawio.png}
         \end{center}
     \end{figure}
 
@@ -289,10 +279,62 @@ strength: $0.2 Am^2$ \textcolor{red}{TBC}.
     \begin{itemize}
         \item Voltage and current sensor - ina226 (4x) 
         \item Temperature sensor - TMP100 (4x)
-        \item Gyroscope (3-axis) - L3G4200D (1x)
-        \item Magnetometer (3-axis) - HMC5983 (1x)
+        \item Gyroscope (3-axis) -  I3G4250DTR (1x)
+        \item Magnetometer (3-axis) - MMC5983MA (1x)
         \item H-bridge - DRV8834PWP (3x) \textcolor{red}{TBC}
         \item Sun sensors - (?x) \textcolor{red}{TBC}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Sensors}
+
+    \begin{table}[!htb]\scriptsize
+    \centering
+    \label{tab:cost-estimation}
+    \begin{tabular}{lccc}
+        \toprule[1.5pt]
+        \textbf{Characteristic} & \textbf{ina226} & \textbf{TPM100} & \textbf{MMC5983MA} \\
+        \midrule
+        Manufacturer        &  Texas Instruments & Texas Instruments  & MEMSIC  \\
+        Partnumber          & INA226AIDGSR & TMP100MDBVREP & MMC5983MA \\
+        Interface           & I2C    & I2C & SPI or I2C\\
+        Temperature range   & –40°C a 125°C & –55°C to 125°C & -40°C to +105°C \\        
+        \bottomrule[1.5pt]
+    \end{tabular}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{Sensors}
+
+    \begin{table}[!htb]\scriptsize
+    \centering
+    \label{tab:cost-estimation}
+    \begin{tabular}{lccc}
+        \toprule[1.5pt]
+        \textbf{Characteristic} & \textbf{I3G4250D} & \textbf{Sun sensor} \\
+        \midrule
+        Manufacturer     &  MEMSIC & -  \\
+        Partnumber       & I3G4250DTR & - \\
+        Interface        & SPI or I2C    & - \\
+        Temperature range   & -40 °C to +85 °C & - \\
+        
+        \bottomrule[1.5pt]
+    \end{tabular}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{External Watchdog}
+
+    \begin{itemize}
+        \item IC: Texas Instruments TPS3823
+        \vspace{0.5cm}
+        \item Voltage monitor with a watchdog timer feature
+        \vspace{0.5cm}
+        \item Timeout period: $1600\ ms$
+        \vspace{0.5cm}
     \end{itemize}
 
 \end{frame}
@@ -309,16 +351,17 @@ strength: $0.2 Am^2$ \textcolor{red}{TBC}.
         \toprule[1.5pt]
         \textbf{Component} & \textbf{Description} & \textbf{Partnumber} & \textbf{Quantity} \\
         \midrule
-        Microcontroller       &  - & STM32F303xxxxx  & 2 \\
+        Microcontroller       &  - & STM32F303RCT6  & 2 \\
         CAN Transceiver       & - & TCAN330GD  & 2 \\
         Voltage and Current Sensors   & - & ina226 & 8\\
         Temperature Sensors   & - & TMP100 & 8\\
-        Gyroscope             & - & L3G4200D & 2\\
-        Magnetometer          & - & HMC5983 & 2\\
+        Gyroscope             & - & I3G4250DTR & 2\\
+        Magnetometer          & - & MMC5983MA & 2\\
         Sun sensors           & - & \textcolor{red}{TBD} & \textcolor{red}{TBD}\\
         H-Bridge              & - & \textcolor{red}{TBD} & 6 \\
         Copper wire           & \textcolor{red}{TBD} & - & 1 \\
         Magnetic core         & \textcolor{red}{TBD} & - & 4 \\
+        Watchdog              & - & TPS3823 & 2 \\
         
         \bottomrule[1.5pt]
     \end{tabular}
@@ -552,17 +595,18 @@ strength: $0.2 Am^2$ \textcolor{red}{TBC}.
         \toprule[1.5pt]
         \textbf{Item} & \textbf{Unit (US\$)} & \textbf{Quantity} & \textbf{Total (US\$)} \\
         \midrule
-        STM32F303xxxxx        & 8     & 2  & 16  \\
+        STM32F303RCT6         & 8.86     & 2  & 17.72  \\
         TCAN330GD             & 3.89  & 2  & 7.78 \\
         ina226                & 9.24  & 8  & 73.92\\
         TMP100                & 2.68  & 8  & 21.44\\
-        L3G4200D              & 19.99 & 2  & 39.98 \\
-        HMC5983               & 3,16  & 2  & 6.32 \\
+        I3G4250DTR            & 10.98 & 2  & 10.98 \\
+        MMC5983MA             & 4.44  & 2  & 8.88 \\
         DRV8834PWP            & 3.62  & 6  & 28.96 \\
         Copper wire           & -     & 1  & - \\
         Magnetic core         & -     & 4  & - \\
         Passive components    & 5.00  & 1  & 5.00 \\
         PCB                   & 0.50  & 10 & 5.00 \\
+        TPS3823-50DBVR        & 1.59  & 2 & 3.18 \\
         \midrule
         Total          & \multicolumn{3}{c}{204.04\footnote{Prices in August 2022, without delivery rates or taxes.}} \\
         \bottomrule[1.5pt]
