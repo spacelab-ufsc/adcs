@@ -54,5 +54,3 @@ The ADCS software and hardware releases are synchronized in order to garantee co
 ## Notes
 
 More info about the SpaceLab: [GitHub](https://github.com/spacelab-ufsc/spacelab) and [Website](https://spacelab.ufsc.br/en/home/)
-
-
