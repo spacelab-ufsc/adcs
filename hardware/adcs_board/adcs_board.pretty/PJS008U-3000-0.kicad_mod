@@ -1,0 +1,332 @@
+(footprint "PJS008U-3000-0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U5"
+		(at -0.254 29.21 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d5ddb642-6182-4e94-8aed-b24521703717")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PJS008U-3000-0"
+		(at -0.254 29.21 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "406a179b-ae7b-46f8-a230-b1e7020d6fdb")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99a37785-4f42-4373-be8a-f26d43158925")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49c1bdb6-df4d-4843-b5ff-b65508b988ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\n8 Position Card Connector Secure Digital - microSD™ Through Hole Gold-Nickel\n"
+		(at 150.388 63.778 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cd0918b-fad8-4c57-9fd8-7b5859ddc938")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2554440-652f-4d14-bf45-936275dea1bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/PJS008U-3000-0/ICH/view-part/?ref=eda"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52136453-79e5-4f11-84c1-4a4309df6740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Yamaichi Electronics"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6122a35d-cb40-4124-8390-58c6d97c88f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "PJS008U-3000-0"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a89e0cc1-a0e8-4f10-8519-826f89c98ba3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e6e07ba-2a99-4cf9-8f1d-9ce1cd4f3ff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2f35b07-f96a-41ef-943a-7ed5535a92eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6294660&manufacturer=Yamaichi Electronics&part_name=PJS008U-3000-0&search_term=microsd"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b039aa2-0152-458e-a0d7-009aa21a61a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJS008U-3000-0/ICH/view-part/?ref=snap"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00c9b31e-05f9-4145-8762-cd1cdf20a515")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.6 -3.05)
+		(end -5.6 1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c97fe69a-3598-4d4f-9de0-0c0bfbbcb920")
+	)
+	(fp_line
+		(start -5.6 1.95)
+		(end 6.4 1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b28d2f3e-1ea2-4244-8cfc-464c0daa265f")
+	)
+	(fp_line
+		(start 6.4 -3.05)
+		(end -5.6 -3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e933c7b-2e69-4b33-91a2-7b02e8b6b796")
+	)
+	(fp_line
+		(start 6.4 1.95)
+		(end 6.4 -3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "261e0dae-0ba9-4194-a449-fed57ef5e060")
+	)
+	(fp_line
+		(start -6.5 -1.25)
+		(end 6.4 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7e1c4db-2ff8-4296-9232-344d872c045e")
+	)
+	(fp_line
+		(start -6.5 1.25)
+		(end -6.5 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e12aa7a5-3ab9-4955-9e17-5678872ac722")
+	)
+	(fp_line
+		(start 6.4 1.25)
+		(end -6.5 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23b9235f-d159-4743-b9b9-2e0670076549")
+	)
+	(fp_line
+		(start 6.5 -1.25)
+		(end 6.5 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e39e3aec-5f3f-4799-81f0-af9f1f943051")
+	)
+	(pad "P$1" thru_hole circle
+		(at -3.45 -1.5)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5e429dbf-704b-4f5f-bd16-6f3cce99e376")
+	)
+	(pad "P$2" thru_hole circle
+		(at -2.35 -2.6)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d8177bb7-d1ca-4b55-8b1a-db6ccea4bc5e")
+	)
+	(pad "P$3" thru_hole circle
+		(at -1.25 -1.5)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "66a74a94-e1f4-4b8f-9cc3-1b34b6ba29cf")
+	)
+	(pad "P$4" thru_hole circle
+		(at -0.15 -2.6)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "36340020-3d57-44ce-8287-430e3f86a12e")
+	)
+	(pad "P$5" thru_hole circle
+		(at 0.95 -1.5)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0b311314-0688-4b95-b494-0cbf0e0a49e7")
+	)
+	(pad "P$6" thru_hole circle
+		(at 2.05 -2.6)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "50f56bfb-80a7-4285-8595-499ab128d3fd")
+	)
+	(pad "P$7" thru_hole circle
+		(at 3.15 -1.5)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5f2d28e0-fdea-482b-a34e-306847e82232")
+	)
+	(pad "P$8" thru_hole circle
+		(at 4.25 -2.6)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "afbab665-882c-4c46-bfbd-6d4eda534efc")
+	)
+	(pad "P$9" thru_hole circle
+		(at -3.9 1.67)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a77f8068-126d-486d-b113-e4bec4e7c305")
+	)
+	(pad "P$10" thru_hole circle
+		(at 4.7 1.67)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "83bcaced-539e-4ecc-b32c-2ba50dd3a7a4")
+	)
+)

@@ -1,0 +1,243 @@
+(footprint "CAPC2012X140N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C8"
+		(at 0 1.27 180)
+		(layer "F.SilkS")
+		(uuid "585fefad-435f-497b-a373-68701f152ecd")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "08055C474MAT2A"
+		(at 1.54 1.32 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6590b562-9485-4a51-83ea-38e6f6b6541a")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "436217d4-ec75-423d-b3f6-689696983949")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20f0466e-4f0d-43bc-925d-0701ac402cdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\n0805 470 nF 50 V ±20 % Tolerance X7R SMT Multilayer Ceramic Capacitor\n"
+		(at 146.688 94.416 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bef28e1d-aa67-4978-b625-90caf7043fa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "237c305c-41a2-4c0a-82b1-f5ffd71dcf89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/08055C474MAT2A/AVX/view-part/?ref=eda"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e14bccc7-adbc-4683-a56a-e7a766a9552f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "AVX"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a90191cf-c7ad-442f-8ad4-0af8ddb1784a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "08055C474MAT2A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0c91169-09c2-4715-b4ce-51040e5fc162")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "2012 AVX"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ab1da9a-dcd1-4cf2-b26c-579a464d14b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92557273-2676-4aac-ac8e-e71894678cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/08055C474MAT2A/AVX/view-part/?ref=snap"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26d17940-2e98-4979-982b-183af467b44a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.713 -0.983)
+		(end 1.713 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d4ccdda-9bcb-421b-bf08-df35388d3236")
+	)
+	(fp_line
+		(start -1.713 0.983)
+		(end -1.713 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d71f411d-1a59-4b31-b91b-6ce26e5e39c6")
+	)
+	(fp_line
+		(start -1.713 0.983)
+		(end 1.713 0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1f1ef3a-9942-4e6d-ab8a-eb3b69d36234")
+	)
+	(fp_line
+		(start 1.713 0.983)
+		(end 1.713 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21a195b9-c81d-4f6a-bbbb-38e18ffe485a")
+	)
+	(fp_line
+		(start -1.1 0.72)
+		(end -1.1 -0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25b2c962-29ff-4ea4-860f-9a7a0d361e14")
+	)
+	(fp_line
+		(start 1.1 -0.72)
+		(end -1.1 -0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e958143f-04a8-4169-acb9-2d68f3030412")
+	)
+	(fp_line
+		(start 1.1 0.72)
+		(end -1.1 0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bc3338c-bd18-4210-be4a-554aaa095c65")
+	)
+	(fp_line
+		(start 1.1 0.72)
+		(end 1.1 -0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cb10d37-9c69-47fa-bb5a-79650ad15c94")
+	)
+	(pad "1" smd rect
+		(at -0.88 0)
+		(size 1.16 1.47)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "566ff67f-8595-44f7-bc14-cef380d7462f")
+	)
+	(pad "2" smd rect
+		(at 0.88 0)
+		(size 1.16 1.47)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "dd0f965b-1edc-4b07-871e-02cd29663b18")
+	)
+)

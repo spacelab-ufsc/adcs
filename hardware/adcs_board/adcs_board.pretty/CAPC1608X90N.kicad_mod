@@ -1,0 +1,243 @@
+(footprint "CAPC1608X90N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C19"
+		(at -2.286 0 180)
+		(layer "F.SilkS")
+		(uuid "fc9ef486-6668-42c2-8380-56ecdecc7907")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "06033C103KAT2A"
+		(at 1.51 1.08 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f553808b-4b45-493e-8312-ee63764f554b")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "308898c8-91e8-4945-937e-cb612076c55c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57413f1c-d88f-475a-9456-68df4442a6c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\n0603 X7R ceramic capacitor,10nF 25V | AVX 06033C103KAT2A\n"
+		(at 122.304 102.036 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c7513bc-9afc-4627-9b62-bbebd3899e66")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4822bf48-fc94-45ab-b640-c179a6557518")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/06033C103KAT2A/AVX+%252F+Kyocera/view-part/?ref=eda"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b6f4689-79ff-4ead-8d3c-12e8a0bed33b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "AVX"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cffb347-0598-49b4-b409-d21e6f63b580")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "06033C103KAT2A"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2abcce67-06d3-4475-94d2-c7265999e16e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "1608 AVX"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "255a98b2-bdb1-4cd1-b003-8d002a06fe73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4580752d-a0d4-4dd0-8bea-cbb1279131e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/06033C103KAT2A/AVX+%252F+Kyocera/view-part/?ref=snap"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3324f108-41f7-4373-8279-311ef553dfd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.485 -0.74)
+		(end 1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b71f4488-7556-4ca0-b7ca-4261d29d062d")
+	)
+	(fp_line
+		(start -1.485 0.74)
+		(end -1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd77b532-a88e-4589-bd16-12e562b0adf8")
+	)
+	(fp_line
+		(start -1.485 0.74)
+		(end 1.485 0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74263c01-3d7d-443d-b928-5fa92babd3da")
+	)
+	(fp_line
+		(start 1.485 0.74)
+		(end 1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08a5a513-b040-4133-b25a-ccd4b9783c57")
+	)
+	(fp_line
+		(start -0.88 0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0b34bd9-99f8-489b-9a0e-dc6a5719ac14")
+	)
+	(fp_line
+		(start 0.88 -0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4159deb0-7693-42c4-a3af-fd612adaa62a")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end -0.88 0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b9507af-5614-48a7-bd6e-4613d8e3c8aa")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end 0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37a806da-b297-4d41-ad09-6bec908b4b30")
+	)
+	(pad "1" smd rect
+		(at -0.775 0)
+		(size 0.92 0.98)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "4ffe062d-ee29-4b2d-83db-852926bb7767")
+	)
+	(pad "2" smd rect
+		(at 0.775 0)
+		(size 0.92 0.98)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b2e0b921-1409-4463-9324-53a2c2136c80")
+	)
+)

@@ -1,0 +1,306 @@
+(footprint "SO8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "T1"
+		(at 0.635 -1.143 180)
+		(layer "F.SilkS")
+		(uuid "d4cff0a8-d9d3-4fea-8552-6dfec280c572")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRF7105"
+		(at -0.381 0.762 180)
+		(layer "F.Fab")
+		(uuid "48a2f6fa-5b9d-43ca-adae-f7f29fd03cb5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ce4a176-1303-4afb-b0d4-b7cc35d31b3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "363600ec-6699-4032-ac86-2d7e321749c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\nMosfet Array N and P-Channel 25V 3.5A, 2.3A 2W Surface Mount 8-SO\n"
+		(at 117.04215 128.70715 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c57616b7-45f1-47c7-bfe4-67c88871b2ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "Not in stock"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09b2c734-5a22-4318-a00c-3785ce6a8d28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=eda"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fcad854-26e7-4811-8e4b-af95f8cef135")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Infineon Technologies"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15fcb09f-f5ac-419d-ae88-fbda6d3b56a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "IRF7105"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "336cd826-4570-4258-82b1-e4d6026f8924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOIC-8 International Rectifier"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cd7b190-16e2-4db3-ad7e-e5f3708d0379")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfcc195b-7636-4805-8366-f90c9992d37a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=166689&manufacturer=Infineon Technologies&part_name=IRF7105&search_term=irf7105"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebca67cd-cd47-4231-86f9-db54f5cbba6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=snap"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bdb0e39-e4b2-4afc-bad2-8628f1aabde9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.175 -4.445)
+		(end 3.175 -4.445)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33b5e775-62f8-451e-a5a2-5983ef951d38")
+	)
+	(fp_line
+		(start -3.175 -0.9525)
+		(end -3.175 -4.445)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c21a66ef-c207-44bf-837d-912eed46ebf3")
+	)
+	(fp_line
+		(start -3.175 -0.9525)
+		(end -1.905 -0.9525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d38054c-2cb3-48f2-81e2-9f9e7f25d73e")
+	)
+	(fp_line
+		(start -3.175 0.9525)
+		(end -3.175 -0.9525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94f988fd-a8b6-40d5-8772-36f7639f9d54")
+	)
+	(fp_line
+		(start -3.175 4.445)
+		(end -3.175 0.9525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50daf4de-c6d6-4a95-accc-e2e642de4684")
+	)
+	(fp_line
+		(start -1.905 -0.9525)
+		(end -1.905 0.9525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a248e040-1792-4d3c-91b0-06b045875290")
+	)
+	(fp_line
+		(start -1.905 0.9525)
+		(end -3.175 0.9525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5022d4f0-52a4-4954-ba8f-71deb36c7278")
+	)
+	(fp_line
+		(start 3.175 -4.445)
+		(end 3.175 4.445)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d595bfa-0e61-4543-95c4-435077c20b07")
+	)
+	(fp_line
+		(start 3.175 4.445)
+		(end -3.175 4.445)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e3f2b7a-6876-43a0-a0e7-e2ddd44c5eb0")
+	)
+	(pad "1" smd rect
+		(at -1.905 3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "975a699e-bc04-4eec-b9b2-3211b763bc81")
+	)
+	(pad "2" smd rect
+		(at -0.635 3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1861ea8e-a2f3-414a-911a-3464a0e500da")
+	)
+	(pad "3" smd rect
+		(at 0.635 3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d47962f6-eabc-4ed9-ae8c-17ca4f807921")
+	)
+	(pad "4" smd rect
+		(at 1.905 3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d079b6db-9119-43f4-8f2c-c702e5829529")
+	)
+	(pad "5" smd rect
+		(at 1.905 -3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5c6bb133-2671-49e1-8d0f-90a64f2ebda5")
+	)
+	(pad "6" smd rect
+		(at 0.635 -3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "c79e68c0-20ea-4cb4-84b3-6bdfd2994876")
+	)
+	(pad "7" smd rect
+		(at -0.635 -3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8d0136d9-402a-4803-901e-82dd4a3cf8a9")
+	)
+	(pad "8" smd rect
+		(at -1.905 -3.0607)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "bde002ce-2074-4ba8-b437-b826897d6b86")
+	)
+)

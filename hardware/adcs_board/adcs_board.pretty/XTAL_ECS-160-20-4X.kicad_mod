@@ -1,0 +1,454 @@
+(footprint "XTAL_ECS-160-20-4X"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Y2"
+		(at 2.264 3.716 -90)
+		(layer "F.SilkS")
+		(uuid "4721ae76-39f6-4523-9ce7-92659f9a8f80")
+		(effects
+			(font
+				(size 1.000811 1.000811)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ECS-080-20-4X-DU"
+		(at -2.032 -5.334 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bf55a94-0e83-45a7-951e-bf15cb41ae1e")
+		(effects
+			(font
+				(size 1.001929 1.001929)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92c8585f-a85a-4bdb-93c2-321318ca3744")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afc21f5e-8708-4782-a032-a4400be9545d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\n8 MHz ±30ppm Crystal 20pF 80 Ohms HC-49/US\n"
+		(at 117.224 98.734 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8efdb0ff-343d-4b3f-a9bd-df744e06091d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afbc5fe7-b708-4c04-b6bc-c8f43ccf376c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/ECS-080-20-4X-DU/ECS+Inc./view-part/?ref=eda"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a19609c-ac0a-4adb-bc95-bb1cd953d6a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "ECS Inc."
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3263f096-f78f-49ec-8eb3-14be83d5d56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "ECS Inc."
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10c439ba-269e-4e52-aad3-3e5413359250")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "ECS-080-20-4X-DU"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35276b60-69a6-4e4f-9085-1df50ccd6d63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "HC-49US ECS Inc."
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcc1b383-95fe-462e-8a70-68229afd7e9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c2d09e9-00d4-458e-a52e-23bbef3d3cd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4374416&manufacturer=ECS Inc.&part_name=ECS-080-20-4X-DU&search_term=ecs-080-20-4x-du"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "419a8921-82d4-49ce-9d47-1893b4499f90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-080-20-4X-DU/ECS+Inc./view-part/?ref=snap"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7987e81-0476-43a0-98fd-159f10d2a2c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.675 1.01)
+		(end -5.675 -1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e9a4863-47dc-4deb-9cb4-636368da8a95")
+	)
+	(fp_line
+		(start -4.405 -2.33)
+		(end 4.405 -2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7cd42ba-b722-4488-add7-9fcf64530c2f")
+	)
+	(fp_line
+		(start 4.405 2.33)
+		(end -4.405 2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c4e1d62-c13e-4ff1-88d0-4980abd8f9bb")
+	)
+	(fp_line
+		(start 5.675 -1.01)
+		(end 5.675 1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0436b578-14a4-4ca0-925a-0649b0a33bee")
+	)
+	(fp_arc
+		(start -5.675 -1.01)
+		(mid -5.313381 -1.933026)
+		(end -4.405 -2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f1b5080-4b2c-4b59-92be-15459d154813")
+	)
+	(fp_arc
+		(start -4.405 2.33)
+		(mid -5.313381 1.933026)
+		(end -5.675 1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a088b7a8-cd4c-4ae1-bdae-5a9d2881e37c")
+	)
+	(fp_arc
+		(start 4.405 -2.33)
+		(mid 5.313381 -1.933026)
+		(end 5.675 -1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21be1271-e8a6-4db2-8446-19450089d1c9")
+	)
+	(fp_arc
+		(start 5.675 1.01)
+		(mid 5.313381 1.933026)
+		(end 4.405 2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f42d76de-88a8-4253-9977-61050237df38")
+	)
+	(fp_line
+		(start -6 1.01)
+		(end -6 -1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55aba844-ccb8-4719-8416-59775b1eeeb7")
+	)
+	(fp_line
+		(start -4.43 -2.58)
+		(end 4.43 -2.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63365505-66eb-4ae7-9911-4e959e1f5a0e")
+	)
+	(fp_line
+		(start 4.43 2.58)
+		(end -4.43 2.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de2ac471-ab0f-4760-bdeb-812274430c15")
+	)
+	(fp_line
+		(start 6 -1.01)
+		(end 6 1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b038a754-8da0-48de-8e6d-4455b5a902a0")
+	)
+	(fp_arc
+		(start -6 -1.01)
+		(mid -5.540158 -2.120158)
+		(end -4.43 -2.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "605f5781-cf48-4d76-96da-b01ee4d6d318")
+	)
+	(fp_arc
+		(start -4.43 2.58)
+		(mid -5.540158 2.120158)
+		(end -6 1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3c83ee6-78e6-40c4-971d-ea2b13b14b00")
+	)
+	(fp_arc
+		(start 4.43 -2.58)
+		(mid 5.540158 -2.120158)
+		(end 6 -1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa21bc3a-caed-4acd-adcf-b7b62e64c8ee")
+	)
+	(fp_arc
+		(start 6 1.01)
+		(mid 5.540158 2.120158)
+		(end 4.43 2.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9beff86d-1d24-42b9-854c-b696088c1bb6")
+	)
+	(fp_line
+		(start -5.675 1.01)
+		(end -5.675 -1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6405ec4a-a521-456d-a9bd-c2de50bda3e0")
+	)
+	(fp_line
+		(start -4.405 -2.33)
+		(end 4.405 -2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2fa0209-9d2f-4b4d-83aa-4889c8427125")
+	)
+	(fp_line
+		(start 4.405 2.33)
+		(end -4.405 2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12a5813c-f014-48c1-b51d-2895ccc564f6")
+	)
+	(fp_line
+		(start 5.675 -1.01)
+		(end 5.675 1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19a71942-4539-4e2e-bf1e-cdb697580193")
+	)
+	(fp_arc
+		(start -5.675 -1.01)
+		(mid -5.313381 -1.933026)
+		(end -4.405 -2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c8d03e1-167a-44cc-9687-0f5705fa621d")
+	)
+	(fp_arc
+		(start -4.405 2.33)
+		(mid -5.313381 1.933026)
+		(end -5.675 1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "871feeb7-4b72-482f-b4ad-6e26ebc85ad4")
+	)
+	(fp_arc
+		(start 4.405 -2.33)
+		(mid 5.313381 -1.933026)
+		(end 5.675 -1.01)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc2a0623-0243-4f91-87d5-77c8f7ec6716")
+	)
+	(fp_arc
+		(start 5.675 1.01)
+		(mid 5.313381 1.933026)
+		(end 4.405 2.33)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdf26770-bb09-489a-95fb-3b6194cf43dc")
+	)
+	(pad "1" thru_hole circle
+		(at -2.44 0)
+		(size 1.03 1.03)
+		(drill 0.63)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "82d70823-045c-4301-84f2-a9d69ef3b03a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.44 0)
+		(size 1.03 1.03)
+		(drill 0.63)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c855c59f-c04e-42df-aa09-0d32749a3a3d")
+	)
+	(model "/home/felipe/Downloads/ECS-080-20-4X-DU.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

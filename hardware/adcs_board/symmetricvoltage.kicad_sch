@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "520c8035-c516-4222-87e1-3daad805e57a")
+	(paper "A4")
+	(title_block
+		(title "Atitude determination and control system")
+		(date "2024-09-25")
+		(rev "1.0")
+		(company "SpaceLab - Federal University of Santa catarina")
+		(comment 1 "Felipe Juliano - felipecostajuliano@live.com")
+	)
+	(lib_symbols)
+)

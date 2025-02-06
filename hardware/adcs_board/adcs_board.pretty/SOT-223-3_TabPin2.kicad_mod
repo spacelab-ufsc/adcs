@@ -1,0 +1,255 @@
+(footprint "SOT-223-3_TabPin2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "module CMS SOT223 4 pins")
+	(tags "CMS SOT")
+	(property "Reference" "U4"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "6d54019b-2219-45e0-b1a7-05c704035401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AMS1117-3.3"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a8f6c47-e263-45f0-90f2-fe036ab5024e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8856e59-02f1-41bf-b1a5-37bf39874032")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88457d94-c6f0-44ac-ac4f-e368b5b89880")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79f00f4f-c371-4c48-a10f-bd20d0c19050")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 -3.41)
+		(end 1.91 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6093c12c-a710-4918-ac1c-1e8338423d90")
+	)
+	(fp_line
+		(start -1.85 3.41)
+		(end 1.91 3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84f8d5b7-aa1e-4397-8b1b-deb8d18e0e70")
+	)
+	(fp_line
+		(start 1.91 -3.41)
+		(end 1.91 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aba51f47-bfd4-4ed8-a158-889f1925bb48")
+	)
+	(fp_line
+		(start 1.91 3.41)
+		(end 1.91 2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad593b4d-0411-478c-b27f-7ac701799002")
+	)
+	(fp_line
+		(start -4.4 -3.6)
+		(end -4.4 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8badab16-882d-4fbe-af9c-8ffd6c222df9")
+	)
+	(fp_line
+		(start -4.4 3.6)
+		(end 4.4 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c870b56f-6e27-4bd3-96ce-1625722044c9")
+	)
+	(fp_line
+		(start 4.4 -3.6)
+		(end -4.4 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24034754-caf8-450e-a4cb-562e20486af1")
+	)
+	(fp_line
+		(start 4.4 3.6)
+		(end 4.4 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf5e272f-d018-4a94-ad96-2c74094d5f4c")
+	)
+	(fp_line
+		(start -1.85 -2.35)
+		(end -1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b2cd77e-d1b4-41a4-bd4e-b6f3b0d147b4")
+	)
+	(fp_line
+		(start -1.85 -2.35)
+		(end -0.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97b529bd-fb80-40b7-ade8-4b45d9742216")
+	)
+	(fp_line
+		(start -1.85 3.35)
+		(end 1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aff96889-3f89-413f-a20f-7ad35b7e49fb")
+	)
+	(fp_line
+		(start -0.85 -3.35)
+		(end 1.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eac7a464-b93d-4e80-93e1-a17d0b6efd31")
+	)
+	(fp_line
+		(start 1.85 -3.35)
+		(end 1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1779627-ffee-4558-89c7-cf64d743db79")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.164 2.454 90)
+		(layer "F.Fab")
+		(uuid "aa9686e2-9f2a-4677-b5d1-8ce7520511c0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.15 -2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b126102d-907a-48cc-b684-7edcc78dd401")
+	)
+	(pad "2" smd rect
+		(at -3.15 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c3075b40-980e-420c-a00d-e22abdde2599")
+	)
+	(pad "2" smd rect
+		(at 3.15 0)
+		(size 2 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03e4a3a7-2383-4825-bc33-582e81f6ab48")
+	)
+	(pad "3" smd rect
+		(at -3.15 2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c20768f-2b17-4487-88af-b227d8d419a3")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/felipe/Downloads/AMS1117-3.3.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

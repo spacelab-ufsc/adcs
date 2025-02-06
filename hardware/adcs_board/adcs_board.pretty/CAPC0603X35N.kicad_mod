@@ -1,0 +1,255 @@
+(footprint "CAPC0603X35N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C20"
+		(at -2.228 -4.064 -90)
+		(layer "F.SilkS")
+		(uuid "ff225481-a877-4f68-8b61-81f6dfd013c6")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "GRM033R60J105MEA2D"
+		(at 2.28 0.77 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ef8d1c6-01c6-4b65-9985-e94675e54700")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bcc84c9-3e64-4a02-99d8-2bdd6938bebb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e7b32be-fbbc-443f-ad2b-9425924be5d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\nSMD capacitor X5R(EIA) with capacitance 1.0uF Tol.20%. Rated voltage 6.3Vdc 85C\n"
+		(at 120.78 101.756 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96f20c8e-cd3a-45cc-be5a-0540e3bddbd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "602d822f-a608-4550-88c2-e6e3dc6cf794")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/GRM033R60J105MEA2D/Murata+Electronics+North+America/view-part/?ref=eda"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c96bb32-7e05-493c-8201-96da0cb21f03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Murata"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a8a5358-89d9-4839-afa8-8a38f3ba9c6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "GRM033R60J105MEA2D"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04b5b562-542c-4b39-b4f5-56a5fb062766")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "0603 Taiyo Yuden"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a9401bd-8e36-4990-bc45-083cff3c0322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51d8c8d7-9d62-4d97-be7d-266698ea33c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=995896&manufacturer=Murata&part_name=GRM033R60J105MEA2D&search_term=capacitor 1uf"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bf72945-103d-4d44-a47b-1946982f3d76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033R60J105MEA2D/Murata+Electronics+North+America/view-part/?ref=snap"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cc5acc9-da86-4508-a7df-81c05c580126")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.72 -0.45)
+		(end 0.72 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f003697-4451-4096-a5ec-ade58c628760")
+	)
+	(fp_line
+		(start -0.72 0.45)
+		(end -0.72 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79279ad6-1576-4678-916d-b3212ce35c59")
+	)
+	(fp_line
+		(start -0.72 0.45)
+		(end 0.72 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d37607d-1bb3-4ce3-a69e-d0004f16b0a6")
+	)
+	(fp_line
+		(start 0.72 0.45)
+		(end 0.72 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01444033-c848-4ba5-9ad1-548bd27ff1c8")
+	)
+	(fp_line
+		(start -0.33 0.17)
+		(end -0.33 -0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bee01278-24fc-45ac-9cb7-33649d7ca1d3")
+	)
+	(fp_line
+		(start 0.33 -0.17)
+		(end -0.33 -0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e59ce4a-2f3b-425a-a4a1-dd65e4a9542a")
+	)
+	(fp_line
+		(start 0.33 0.17)
+		(end -0.33 0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c1b3ab1-d5aa-4458-805d-cb7aae57d421")
+	)
+	(fp_line
+		(start 0.33 0.17)
+		(end 0.33 -0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78a89686-3172-41df-9d07-0b7b7c0bdca8")
+	)
+	(pad "1" smd rect
+		(at -0.28 0)
+		(size 0.38 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "3cf74ade-0865-4a1e-82c1-1d806f82763c")
+	)
+	(pad "2" smd rect
+		(at 0.28 0)
+		(size 0.38 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "07028531-063e-4269-955e-1782468a1dd9")
+	)
+)

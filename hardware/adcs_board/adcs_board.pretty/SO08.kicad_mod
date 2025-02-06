@@ -1,0 +1,435 @@
+(footprint "SO08"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>body 3.9 mm/JEDEC MS-012AA")
+	(property "Reference" "IC1"
+		(at -4.43 0 180)
+		(layer "F.SilkS")
+		(uuid "f984a75a-eac1-4426-a258-3ce27957e981")
+		(effects
+			(font
+				(size 1.001008 1.001008)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MAX662A"
+		(at 3.813315 -0.63556 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14511879-571e-4c31-843a-ac9b641fe28b")
+		(effects
+			(font
+				(size 1.000874 1.000874)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93e8157d-a355-4ba7-89f6-9f1f627f1e3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f129ed-760f-4805-8dd5-9fa95fc5bda4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\nCharge Pump Switching Regulator IC Positive Fixed 12V 1 Output 30mA 8-SOIC (0.154, 3.90mm Width)\n"
+		(at 104.88215 125.41715 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ff5c47c-1e65-4431-bcbf-df3ec2f79356")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "Not in stock"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de6854df-7b5d-4eee-9134-0098b1049232")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/MAX662A/Analog+Devices/view-part/?ref=eda"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8b9c822-f9ab-4f0a-8394-f88efa3543c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Analog Devices"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5f39ffc-49b0-49af-9014-9383604c21fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "MAX662A"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd5334cf-ecb6-41f7-a1ae-de62663bac2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOIC-8 Maxim"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b642919d-1321-4db7-96e4-afb901ef328a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e51e075-9cee-454d-b211-118c33f74d57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=229134&manufacturer=Analog Devices&part_name=MAX662A&search_term=max662a"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f25c1a8a-666b-4d26-8cdb-6a94d8f72e04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX662A/Analog+Devices/view-part/?ref=snap"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e2cb642-01f8-46ed-95d1-53b7c802e8bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.9 -3.9)
+		(end 2.9 -3.9)
+		(stroke
+			(width 0.1998)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e7f1ce1-1139-4346-88e5-2d2211604fbe")
+	)
+	(fp_line
+		(start -2.9 3.9)
+		(end -2.9 -3.9)
+		(stroke
+			(width 0.1998)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bccb642c-0d2e-460b-bd06-4cab571c9f5a")
+	)
+	(fp_line
+		(start 2.9 -3.9)
+		(end 2.9 3.9)
+		(stroke
+			(width 0.1998)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6835ecd3-a3fd-4113-a20a-444aa5f0aa9e")
+	)
+	(fp_line
+		(start 2.9 3.9)
+		(end -2.9 3.9)
+		(stroke
+			(width 0.1998)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66ca159d-9967-4c13-bdab-1bd30c62df72")
+	)
+	(fp_line
+		(start -2.4 -1.9)
+		(end 2.4 -1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67a65d6e-684f-4580-be32-65784409ae19")
+	)
+	(fp_line
+		(start -2.4 1.4)
+		(end -2.4 -1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56de2ba6-84bd-4367-85c6-5459625389d7")
+	)
+	(fp_line
+		(start -2.4 1.9)
+		(end -2.4 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9e47c63-19af-46be-8025-0737a058a57f")
+	)
+	(fp_line
+		(start 2.4 -1.9)
+		(end 2.4 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e87b6ea-b0d7-47cb-b4fe-3d46d633c408")
+	)
+	(fp_line
+		(start 2.4 1.4)
+		(end -2.4 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8fbffa3-eaf8-4d0a-b191-79a008da9f5b")
+	)
+	(fp_line
+		(start 2.4 1.4)
+		(end 2.4 1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98972a86-d8f4-4e3c-9a3d-6d4935da2704")
+	)
+	(fp_line
+		(start 2.4 1.9)
+		(end -2.4 1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cb3e640-63c9-41c9-80ad-acce7f955cf9")
+	)
+	(fp_circle
+		(center -1.778 0.762)
+		(end -1.524 0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0a4b87cc-fd68-48a0-a923-7321d307f093")
+	)
+	(fp_poly
+		(pts
+			(xy -2.15352 -3.1001) (xy -1.6599 -3.1001) (xy -1.6599 -2.00318) (xy -2.15352 -2.00318)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "990b0602-47aa-4399-9d1f-c61a8b8d40c3")
+	)
+	(fp_poly
+		(pts
+			(xy -2.1522 2) (xy -1.6599 2) (xy -1.6599 3.10313) (xy -2.1522 3.10313)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "1720324c-7f99-4502-9912-9dd1b1a18116")
+	)
+	(fp_poly
+		(pts
+			(xy -0.881761 2) (xy -0.3899 2) (xy -0.3899 3.10595) (xy -0.881761 3.10595)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "98241824-e73c-46ba-9c63-29eb6070ad84")
+	)
+	(fp_poly
+		(pts
+			(xy -0.881266 -3.1001) (xy -0.3899 -3.1001) (xy -0.3899 -2.00265) (xy -0.881266 -2.00265)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "2b2e847b-5716-41c6-a90a-54c6d90b2f03")
+	)
+	(fp_poly
+		(pts
+			(xy 0.389955 -3.1001) (xy 0.8801 -3.1001) (xy 0.8801 -2.00028) (xy 0.389955 -2.00028)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "f2d52f43-a479-4048-8e49-d1cee7078c83")
+	)
+	(fp_poly
+		(pts
+			(xy 0.390165 2) (xy 0.8801 2) (xy 0.8801 3.1022) (xy 0.390165 3.1022)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "6b93327b-34f5-44c3-ab6e-0f84489847f7")
+	)
+	(fp_poly
+		(pts
+			(xy 1.66115 2) (xy 2.1501 2) (xy 2.1501 3.10243) (xy 1.66115 3.10243)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "d4966f68-1328-40ac-bb40-ef69c54ef14d")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6626 -3.1001) (xy 2.1501 -3.1001) (xy 2.1501 -2.00326) (xy 1.6626 -2.00326)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "a87dd60e-b91b-44a4-88ae-a03605ed5646")
+	)
+	(pad "1" smd rect
+		(at -1.905 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "dd45b815-1f61-4fdd-9ded-46fffeb6e8de")
+	)
+	(pad "2" smd rect
+		(at -0.635 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a054a1cc-1994-4851-87f5-ff055e33859c")
+	)
+	(pad "3" smd rect
+		(at 0.635 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7559a18f-b157-4b21-8b26-2cd5ef3bdd5e")
+	)
+	(pad "4" smd rect
+		(at 1.905 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "28248ece-d30f-41b3-9ac5-085610a12b88")
+	)
+	(pad "5" smd rect
+		(at 1.905 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5786b191-6d2d-4e04-ae93-399789c5db41")
+	)
+	(pad "6" smd rect
+		(at 0.635 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5f6526c3-358d-405b-a985-d696160fcf46")
+	)
+	(pad "7" smd rect
+		(at -0.635 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "eccd5c63-d20f-4e4d-9eb3-837e9b3085b5")
+	)
+	(pad "8" smd rect
+		(at -1.905 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e1e75b9e-84de-4af6-b672-3a1bc1aaa4f6")
+	)
+)

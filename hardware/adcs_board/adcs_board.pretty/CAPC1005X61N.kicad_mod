@@ -1,0 +1,266 @@
+(footprint "CAPC1005X61N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C2"
+		(at 0.28 -0.91 0)
+		(layer "F.SilkS")
+		(uuid "bcc1e919-b1e2-4304-b4f7-7c369044ac3f")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "VJ0402D200JXBAJ"
+		(at 2.03 0.91 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ae92ee1-8fe6-40dd-99d2-062980c2a438")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50471649-af03-4ccf-8f1a-ae043ca3e142")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df67b70b-e3f5-4fa1-87ac-67a31ca1458f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\n0402 VJ 20pF Ceramic Multilayer Capacitor,100V,+125C,COG Dielectric,+/-5% SMD | Vishay Dale VJ0402D200JXBAJ\n"
+		(at 113.414 96.194 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5157321-a11d-4750-affb-57a6b42de5f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2985f8c2-42fa-414b-8da5-b42ed83a8450")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/VJ0402D200JXBAJ/Vishay/view-part/?ref=eda"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f99302d8-a7e1-4b82-840b-da4370fc72d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Vishay"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a62c399-c83c-4589-b417-0055c0b94bc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "VJ0402D200JXBAJ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8353ba02-1574-40fb-9d4b-d4dc3b62553d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "0402 Vishay"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b3e76c5-3aa1-4732-a3a7-433c9a3b9216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "841c0150-0b8c-4b54-a29a-2991fd94e873")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1825584&manufacturer=Vishay&part_name=VJ0402D200JXBAJ&search_term=vj0402d200jxbaj"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "394f9902-e565-4e72-b204-81e934f6a5a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/VJ0402D200JXBAJ/Vishay/view-part/?ref=snap"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e212785c-266c-467f-8cb2-50d86744513e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.975 -0.57)
+		(end 0.975 -0.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c203f361-81dc-4043-9650-f229ff732f25")
+	)
+	(fp_line
+		(start -0.975 0.57)
+		(end -0.975 -0.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9032758d-ca1c-40c8-8373-7ddbf336be57")
+	)
+	(fp_line
+		(start -0.975 0.57)
+		(end 0.975 0.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e2e5202-1465-4cec-88df-33fc3e88d967")
+	)
+	(fp_line
+		(start 0.975 0.57)
+		(end 0.975 -0.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43b0438e-137d-46c7-8843-900f6c8441d9")
+	)
+	(fp_line
+		(start -0.56 0.3)
+		(end -0.56 -0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53f50f9c-86f8-4ad5-9d55-6b299d617a8c")
+	)
+	(fp_line
+		(start 0.56 -0.3)
+		(end -0.56 -0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "938cf18e-2f55-466d-bf53-1fb31e543742")
+	)
+	(fp_line
+		(start 0.56 0.3)
+		(end -0.56 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3ad7d20-4849-46ae-9e80-993b2d671b2a")
+	)
+	(fp_line
+		(start 0.56 0.3)
+		(end 0.56 -0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fd00ad8-f465-4a1f-b157-4838b3ddc57c")
+	)
+	(pad "1" smd rect
+		(at -0.426 0)
+		(size 0.6 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b51092dc-da64-4a85-b805-891580451ce6")
+	)
+	(pad "2" smd rect
+		(at 0.426 0)
+		(size 0.6 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1f201574-4395-4be5-a12b-9d14500de5b0")
+	)
+	(model "/home/felipe/Downloads/VJ0402D200JXBAJ.STEP"
+		(offset
+			(xyz 0 -0.25 0)
+		)
+		(scale
+			(xyz 0.9 0.9 0.9)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

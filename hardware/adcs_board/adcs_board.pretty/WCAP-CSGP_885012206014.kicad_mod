@@ -1,0 +1,243 @@
+(footprint "WCAP-CSGP_885012206014"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C6"
+		(at -0.034 1.016 180)
+		(layer "F.SilkS")
+		(uuid "d177b22d-d357-4b74-8998-b4eb470f5dfb")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "885012206014"
+		(at 3.5204 1.0968 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8257ef14-7fb7-4031-936a-99d0c2933e0d")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb665620-3261-4764-b525-e9ce997b7947")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f656f340-d588-4843-a89d-0f67d8371c26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "\nCapacitor 10nF Multilayer Ceramic MLCC 10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206014\n"
+		(at 146.688 96.956 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e69ac53d-e35c-4ed7-9207-38f993dd6b38")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44d404fd-5090-426a-9908-fd2b9106d05a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/885012206014/Wurth+Electronics+Inc/view-part/?ref=eda"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39af7dbb-4ec2-41c0-8f12-9d9d23a1fe9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Wurth Electronics Inc"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75e34ebf-27a9-414a-852f-297c17b25946")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "885012206014"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab77bf8d-5f30-4e6d-a975-af5e678fe14d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "0603 Wurth Electronics"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10ce3cb3-4bd5-46f1-b828-9a7d83e41686")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15d3533d-acd9-4fdf-a97b-1eb6890107ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206014/Wurth+Electronics+Inc/view-part/?ref=snap"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d380d3d3-c299-4b09-9a7f-83c9f83e581e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -0.65)
+		(end 1.4 -0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03e437cc-d8e8-4a87-9480-692e851315b4")
+	)
+	(fp_line
+		(start -1.4 0.65)
+		(end -1.4 -0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cef5522f-34fd-4331-b116-775e57585bfb")
+	)
+	(fp_line
+		(start -1.4 0.65)
+		(end 1.4 0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e25099c-b1e2-400d-8452-bfd981605abe")
+	)
+	(fp_line
+		(start 1.4 -0.65)
+		(end 1.4 0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "183210c4-9610-45cd-8a79-d74aba56e4fb")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "311fb64c-4e23-4967-b70c-fcd225b663d7")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5707cd29-6273-4bdd-8740-68d4c7bf53b0")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9495633-d9c3-48c2-9c09-b5b5ccefa299")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d299501-cc17-46ff-bb89-30c7d5ab5adf")
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "00cad32c-ed7a-4edd-b8ee-74606a6681f0")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "632e9a38-b047-46bd-9ffc-66fa23e63376")
+	)
+)
