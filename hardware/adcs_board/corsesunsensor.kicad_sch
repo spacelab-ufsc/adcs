@@ -2580,7 +2580,6 @@
 	)
 	(label "REFP"
 		(at 85.09 126.365 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2591,7 +2590,6 @@
 	)
 	(label "REFP"
 		(at 81.28 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2603,7 +2601,6 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 148.59 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2615,7 +2612,6 @@
 	(hierarchical_label "AIN3"
 		(shape input)
 		(at 49.53 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2627,7 +2623,6 @@
 	(hierarchical_label "AIN2"
 		(shape input)
 		(at 49.53 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2639,7 +2634,6 @@
 	(hierarchical_label "AIN0"
 		(shape input)
 		(at 49.53 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,7 +2645,6 @@
 	(hierarchical_label "CS"
 		(shape input)
 		(at 148.59 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2663,7 +2656,6 @@
 	(hierarchical_label "7.68 MHz clock input"
 		(shape input)
 		(at 147.32 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2675,7 +2667,6 @@
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 148.59 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2687,7 +2678,6 @@
 	(hierarchical_label "AIN1"
 		(shape input)
 		(at 49.53 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2699,7 +2689,6 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 148.59 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2711,7 +2700,6 @@
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 148.59 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3289,7 +3277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fref5020"
 			(at 116.205 118.745 0)
 			(effects
 				(font
@@ -3298,7 +3286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC VREF SERIES 0.1% 8SOIC"
 			(at 116.205 118.745 0)
 			(effects
 				(font
@@ -3308,86 +3296,6 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n2.5-V, 3-µVpp/V noise, 3-ppm/°C drift precision series voltage reference\n"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/REF5025AID/Texas+Instruments/view-part/?ref=snap"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "REF5025AID"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=98520&manufacturer=Texas Instruments&part_name=REF5025AID&search_term=None"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 116.205 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/REF5025AID/Texas+Instruments/view-part/?ref=eda"
 			(at 116.205 118.745 0)
 			(effects
 				(font
@@ -4465,7 +4373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 135.89 0)
 			(effects
 				(font
@@ -4543,7 +4451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ADS1257IRGWT"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1257"
 			(at 111.76 62.23 0)
 			(effects
 				(font
@@ -4553,7 +4461,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC ADC 24BIT SIGMA-DELTA 20VQFN"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
 			(at 111.76 62.23 0)
 			(effects
 				(font

@@ -3879,7 +3879,6 @@
 	)
 	(label "MAG_INT"
 		(at 93.98 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3890,7 +3889,6 @@
 	)
 	(label "SS_CS"
 		(at 116.84 29.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3901,7 +3899,6 @@
 	)
 	(label "NRST"
 		(at 38.1 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3912,7 +3909,6 @@
 	)
 	(label "SS_I{slash}O_CLOCK"
 		(at 106.68 29.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3923,7 +3919,6 @@
 	)
 	(label "SRI_IN2"
 		(at 250.19 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,7 +3929,6 @@
 	)
 	(label "GYRO_INT"
 		(at 171.45 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3945,7 +3939,6 @@
 	)
 	(label "AIN2u8"
 		(at 144.78 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3956,7 +3949,6 @@
 	)
 	(label "MAG_CS_SS"
 		(at 99.06 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3967,7 +3959,6 @@
 	)
 	(label "can_ss"
 		(at 171.45 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3978,7 +3969,6 @@
 	)
 	(label "BIN2u8"
 		(at 144.78 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3989,7 +3979,6 @@
 	)
 	(label "SD_SPI_SS"
 		(at 227.33 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4000,7 +3989,6 @@
 	)
 	(label "GYRO_DRDY"
 		(at 171.45 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4011,7 +3999,6 @@
 	)
 	(label "MAG_SPI_MISO"
 		(at 250.19 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4022,7 +4009,6 @@
 	)
 	(label "currentin"
 		(at 171.45 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4033,7 +4019,6 @@
 	)
 	(label "AIN2u7"
 		(at 250.19 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4044,7 +4029,6 @@
 	)
 	(label "currentcoilx"
 		(at 171.45 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4055,7 +4039,6 @@
 	)
 	(label "SS_SPI_MISO"
 		(at 111.76 29.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4066,7 +4049,6 @@
 	)
 	(label "SD_SPI_MOSI"
 		(at 224.79 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4077,7 +4059,6 @@
 	)
 	(label "SS_INT"
 		(at 171.45 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4088,7 +4069,6 @@
 	)
 	(label "SD_SPI_SLK"
 		(at 68.58 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4099,7 +4079,6 @@
 	)
 	(label "SWDIO"
 		(at 144.78 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4110,7 +4089,6 @@
 	)
 	(label "BIN1u8"
 		(at 250.19 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4121,7 +4099,6 @@
 	)
 	(label "GYRO_I2C_SDA"
 		(at 171.45 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4132,7 +4109,6 @@
 	)
 	(label "BIN1u7"
 		(at 109.22 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4143,7 +4119,6 @@
 	)
 	(label "can_sck"
 		(at 171.45 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4154,7 +4129,6 @@
 	)
 	(label "nfaultu7"
 		(at 250.19 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4165,7 +4139,6 @@
 	)
 	(label "SD_SPI_SLK"
 		(at 229.87 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4176,7 +4149,6 @@
 	)
 	(label "MAG_I{slash}O_CLOCK"
 		(at 250.19 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4187,7 +4159,6 @@
 	)
 	(label "MAG_SPI_MOSI"
 		(at 106.68 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4198,7 +4169,6 @@
 	)
 	(label "can_int"
 		(at 26.67 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4209,7 +4179,6 @@
 	)
 	(label "can_miso"
 		(at 171.45 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4220,7 +4189,6 @@
 	)
 	(label "nfaultu8"
 		(at 250.19 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4231,7 +4199,6 @@
 	)
 	(label "nfaultu7"
 		(at 144.78 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4242,7 +4209,6 @@
 	)
 	(label "SRI_IN"
 		(at 250.19 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4253,7 +4219,6 @@
 	)
 	(label "SRI_IN"
 		(at 144.78 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4264,7 +4229,6 @@
 	)
 	(label "GYRO_I2C_SDL"
 		(at 171.45 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4275,7 +4239,6 @@
 	)
 	(label "SS_SPI_SCK"
 		(at 171.45 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4286,7 +4249,6 @@
 	)
 	(label "currentcoily"
 		(at 81.28 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4297,7 +4259,6 @@
 	)
 	(label "MAG_SPI_SCK"
 		(at 101.6 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4308,7 +4269,6 @@
 	)
 	(label "GYRO_I2C_SMBAI"
 		(at 144.78 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4319,7 +4279,6 @@
 	)
 	(label "AIN1u7"
 		(at 250.19 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4330,7 +4289,6 @@
 	)
 	(label "nsleepu7"
 		(at 144.78 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4341,7 +4299,6 @@
 	)
 	(label "AIN1u8"
 		(at 250.19 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4352,7 +4309,6 @@
 	)
 	(label "GYRO_I2C_CS"
 		(at 144.78 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4363,7 +4319,6 @@
 	)
 	(label "nfaultu8"
 		(at 144.78 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4374,7 +4329,6 @@
 	)
 	(label "BIN2u8"
 		(at 250.19 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4385,7 +4339,6 @@
 	)
 	(label "currentcoily"
 		(at 171.45 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4396,7 +4349,6 @@
 	)
 	(label "currentcoilz"
 		(at 171.45 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4407,7 +4359,6 @@
 	)
 	(label "nsleepu8"
 		(at 250.19 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4418,7 +4369,6 @@
 	)
 	(label "SS_I{slash}O_CLOCK"
 		(at 171.45 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4429,7 +4379,6 @@
 	)
 	(label "can_reset"
 		(at 33.02 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4440,7 +4389,6 @@
 	)
 	(label "SD_SPI_MISO"
 		(at 250.19 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4451,7 +4399,6 @@
 	)
 	(label "SS_CS"
 		(at 171.45 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,7 +4409,6 @@
 	)
 	(label "SS_SPI_MOSI"
 		(at 109.22 29.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4473,7 +4419,6 @@
 	)
 	(label "can_sck"
 		(at 26.67 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4484,7 +4429,6 @@
 	)
 	(label "MAG_INT"
 		(at 250.19 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4495,7 +4439,6 @@
 	)
 	(label "AIN2u7"
 		(at 144.78 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4506,7 +4449,6 @@
 	)
 	(label "MAG_SPI_MISO"
 		(at 104.14 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4517,7 +4459,6 @@
 	)
 	(label "boot_ehs"
 		(at 144.78 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4528,7 +4469,6 @@
 	)
 	(label "boot_ehs"
 		(at 222.25 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4539,7 +4479,6 @@
 	)
 	(label "HSE_IN"
 		(at 35.56 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4550,7 +4489,6 @@
 	)
 	(label "GYRO_I2C_SMBAI"
 		(at 171.45 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4561,7 +4499,6 @@
 	)
 	(label "SS_SPI_SCK"
 		(at 114.3 29.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4572,7 +4509,6 @@
 	)
 	(label "can_reset"
 		(at 217.17 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4583,7 +4519,6 @@
 	)
 	(label "SWDCLK"
 		(at 250.19 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4594,7 +4529,6 @@
 	)
 	(label "BIN2u7"
 		(at 144.78 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4605,7 +4539,6 @@
 	)
 	(label "BIN2u7"
 		(at 250.19 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4616,7 +4549,6 @@
 	)
 	(label "MAG_SPI_SCK"
 		(at 250.19 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4627,7 +4559,6 @@
 	)
 	(label "BIN1u8"
 		(at 144.78 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4638,7 +4569,6 @@
 	)
 	(label "GYRO_INT"
 		(at 144.78 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4649,7 +4579,6 @@
 	)
 	(label "SD_SPI_MOSI"
 		(at 73.66 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4660,7 +4589,6 @@
 	)
 	(label "SRI_IN2"
 		(at 144.78 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4671,7 +4599,6 @@
 	)
 	(label "can_miso"
 		(at 26.67 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4682,7 +4609,6 @@
 	)
 	(label "can_mosi"
 		(at 171.45 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4693,7 +4619,6 @@
 	)
 	(label "SS_INT"
 		(at 104.14 29.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4704,7 +4629,6 @@
 	)
 	(label "enable_ehs"
 		(at 144.78 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4715,7 +4639,6 @@
 	)
 	(label "GYRO_I2C_SDL"
 		(at 144.78 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4726,7 +4649,6 @@
 	)
 	(label "SD_SPI_MISO"
 		(at 71.12 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4737,7 +4659,6 @@
 	)
 	(label "MAG_I{slash}O_CLOCK"
 		(at 96.52 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4748,7 +4669,6 @@
 	)
 	(label "SD_SPI_SS"
 		(at 66.04 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4759,7 +4679,6 @@
 	)
 	(label "currentcoilx"
 		(at 78.74 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4770,7 +4689,6 @@
 	)
 	(label "AIN1u8"
 		(at 144.78 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4781,7 +4699,6 @@
 	)
 	(label "SWDIO"
 		(at 250.19 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4792,7 +4709,6 @@
 	)
 	(label "SWDCLK"
 		(at 119.38 29.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4803,7 +4719,6 @@
 	)
 	(label "AIN2u8"
 		(at 250.19 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4814,7 +4729,6 @@
 	)
 	(label "BIN1u7"
 		(at 250.19 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4825,7 +4739,6 @@
 	)
 	(label "MAG_SPI_MOSI"
 		(at 250.19 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4836,7 +4749,6 @@
 	)
 	(label "enable_ehs"
 		(at 219.71 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4847,7 +4759,6 @@
 	)
 	(label "nsleepu8"
 		(at 144.78 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4858,7 +4769,6 @@
 	)
 	(label "SS_SPI_MISO"
 		(at 171.45 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4869,7 +4779,6 @@
 	)
 	(label "HSE_IN"
 		(at 214.63 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4880,7 +4789,6 @@
 	)
 	(label "can_ss"
 		(at 26.67 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4891,7 +4799,6 @@
 	)
 	(label "can_int"
 		(at 171.45 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4902,7 +4809,6 @@
 	)
 	(label "nsleepu7"
 		(at 250.19 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4913,7 +4819,6 @@
 	)
 	(label "AIN1u7"
 		(at 144.78 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4924,7 +4829,6 @@
 	)
 	(label "can_mosi"
 		(at 26.67 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4935,7 +4839,6 @@
 	)
 	(label "currentcoilz"
 		(at 76.2 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4946,7 +4849,6 @@
 	)
 	(label "GYRO_I2C_SDA"
 		(at 144.78 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4957,7 +4859,6 @@
 	)
 	(label "SS_SPI_MOSI"
 		(at 171.45 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4968,7 +4869,6 @@
 	)
 	(label "GYRO_I2C_CS"
 		(at 171.45 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4979,7 +4879,6 @@
 	)
 	(label "currentin"
 		(at 83.82 161.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4990,7 +4889,6 @@
 	)
 	(label "GYRO_DRDY"
 		(at 144.78 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5001,7 +4899,6 @@
 	)
 	(label "MAG_CS_SS"
 		(at 250.19 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

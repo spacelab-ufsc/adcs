@@ -4360,12 +4360,6 @@
 		(uuid "33ce0af6-8eb8-4302-803b-09cb8531c689")
 	)
 	(junction
-		(at 227.33 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34fd0ac5-9c11-434a-a82f-5ed2bb324d78")
-	)
-	(junction
 		(at 266.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4586,12 +4580,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c817477c-8447-4b5e-aed1-3dbef894bb22")
-	)
-	(junction
-		(at 265.43 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb17b3b1-318f-4baa-abfe-338a29fbce0e")
 	)
 	(junction
 		(at 195.58 154.94)
@@ -4816,6 +4804,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 138.43) (xy 213.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082b1cb6-7f99-461f-a19e-7bfee52dd124")
+	)
+	(wire
+		(pts
+			(xy 194.31 146.05) (xy 196.85 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08939ba5-fd90-4fdf-911e-cececc10e2c2")
+	)
+	(wire
+		(pts
 			(xy 241.3 34.29) (xy 243.84 34.29)
 		)
 		(stroke
@@ -4876,7 +4884,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 156.21) (xy 180.34 156.21)
+			(xy 176.53 156.21) (xy 182.88 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4906,7 +4914,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 137.16) (xy 195.58 137.16)
+			(xy 190.5 137.16) (xy 198.12 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4976,7 +4984,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 139.7) (xy 257.81 139.7)
+			(xy 251.46 139.7) (xy 261.62 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5046,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 154.94) (xy 196.85 154.94)
+			(xy 195.58 154.94) (xy 198.12 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5207,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 142.24) (xy 233.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c78a321-2953-477d-91ba-42c5128098e8")
+	)
+	(wire
+		(pts
 			(xy 142.24 73.66) (xy 142.24 71.12)
 		)
 		(stroke
@@ -5237,23 +5255,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 152.4) (xy 274.32 152.4)
+			(xy 265.43 152.4) (xy 278.13 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31974470-c55b-44da-88cc-fd227dba09e0")
-	)
-	(wire
-		(pts
-			(xy 167.64 156.21) (xy 167.64 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a92808-ff53-4c41-a26a-a3862c6c222c")
 	)
 	(wire
 		(pts
@@ -5277,7 +5285,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 146.05) (xy 168.91 146.05)
+			(xy 167.64 146.05) (xy 170.18 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5347,7 +5355,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 129.54) (xy 254 129.54)
+			(xy 252.73 129.54) (xy 256.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5675,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 137.16) (xy 229.87 137.16)
+			(xy 227.33 137.16) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5797,16 +5805,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 129.54) (xy 265.43 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615731a3-b25c-45e2-b2e9-63ebcab45726")
-	)
-	(wire
-		(pts
 			(xy 25.4 148.59) (xy 31.75 148.59)
 		)
 		(stroke
@@ -5884,16 +5882,6 @@
 			(type default)
 		)
 		(uuid "686bb541-2bc3-49f0-8356-f008c41fd79d")
-	)
-	(wire
-		(pts
-			(xy 233.68 160.02) (xy 233.68 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b659823-08c2-43b4-ad83-ac14ea56d406")
 	)
 	(wire
 		(pts
@@ -6048,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 129.54) (xy 194.31 129.54)
+			(xy 190.5 129.54) (xy 196.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +6257,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 129.54) (xy 190.5 137.16)
+			(xy 190.5 129.54) (xy 190.5 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6379,6 +6367,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 154.94) (xy 189.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9129a96e-541c-48a3-9c21-38bb7511b6dd")
+	)
+	(wire
+		(pts
 			(xy 210.82 138.43) (xy 213.36 138.43)
 		)
 		(stroke
@@ -6429,6 +6427,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 129.54) (xy 269.24 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f7fbce-cf84-4966-b475-78ca2a1085f1")
+	)
+	(wire
+		(pts
 			(xy 261.62 129.54) (xy 265.43 129.54)
 		)
 		(stroke
@@ -6439,7 +6447,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 137.16) (xy 227.33 137.16)
+			(xy 222.25 137.16) (xy 226.06 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6449,7 +6457,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 156.21) (xy 213.36 148.59)
+			(xy 213.36 148.59) (xy 213.36 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6549,16 +6557,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 154.94) (xy 189.23 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7dcaa7c-fbca-47a1-8a93-84c19fc3b2b2")
-	)
-	(wire
-		(pts
 			(xy 275.59 78.74) (xy 266.7 78.74)
 		)
 		(stroke
@@ -6596,16 +6594,6 @@
 			(type default)
 		)
 		(uuid "aafa947d-6a74-4755-9298-35f783c81b2b")
-	)
-	(wire
-		(pts
-			(xy 213.36 138.43) (xy 213.36 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7e2fb8-7a2d-45c8-9136-88a173e34b43")
 	)
 	(wire
 		(pts
@@ -6689,7 +6677,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 146.05) (xy 180.34 156.21)
+			(xy 180.34 146.05) (xy 180.34 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7029,7 +7017,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 146.05) (xy 194.31 146.05)
+			(xy 180.34 146.05) (xy 182.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7166,6 +7154,16 @@
 			(type default)
 		)
 		(uuid "d54921e8-373b-48cd-a17b-15e5d92d1f13")
+	)
+	(wire
+		(pts
+			(xy 265.43 142.24) (xy 269.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fe6a68-4e76-487e-ba39-c471fc5b5806")
 	)
 	(wire
 		(pts
@@ -7622,6 +7620,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 146.05) (xy 167.64 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a174a1-4ec4-416b-801b-eec4f082e64a")
+	)
+	(wire
+		(pts
 			(xy 114.3 124.46) (xy 118.11 124.46)
 		)
 		(stroke
@@ -7682,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 129.54) (xy 227.33 129.54)
+			(xy 227.33 129.54) (xy 240.03 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7854,7 +7862,6 @@
 	)
 	(label "outy"
 		(at 86.36 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7865,7 +7872,6 @@
 	)
 	(label "8v"
 		(at 209.55 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7876,7 +7882,6 @@
 	)
 	(label "8v"
 		(at 278.13 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7887,7 +7892,6 @@
 	)
 	(label "8v(2)"
 		(at 281.94 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7898,7 +7902,6 @@
 	)
 	(label "out+b"
 		(at 25.4 33.02 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7909,7 +7912,6 @@
 	)
 	(label "out+b"
 		(at 53.34 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7920,7 +7922,6 @@
 	)
 	(label "S{slash}R1"
 		(at 161.29 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7931,7 +7932,6 @@
 	)
 	(label "out-b"
 		(at 53.34 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7942,7 +7942,6 @@
 	)
 	(label "8v(2)"
 		(at 204.47 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7953,7 +7952,6 @@
 	)
 	(label "outz"
 		(at 25.4 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7964,7 +7962,6 @@
 	)
 	(label "vref"
 		(at 179.07 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7975,7 +7972,6 @@
 	)
 	(label "out-b"
 		(at 25.4 91.44 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7986,7 +7982,6 @@
 	)
 	(label "outy"
 		(at 25.4 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7997,7 +7992,6 @@
 	)
 	(label "S{slash}R1"
 		(at 88.9 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8008,7 +8002,6 @@
 	)
 	(label "S{slash}R2"
 		(at 30.48 93.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8019,7 +8012,6 @@
 	)
 	(label "outz"
 		(at 137.16 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8030,7 +8022,6 @@
 	)
 	(label "S{slash}R2"
 		(at 161.29 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8041,7 +8032,6 @@
 	)
 	(label "outx"
 		(at 86.36 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8052,7 +8042,6 @@
 	)
 	(label "outx"
 		(at 25.4 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8063,7 +8052,6 @@
 	)
 	(label "S{slash}R2"
 		(at 35.56 93.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8074,7 +8062,6 @@
 	)
 	(label "out+1001"
 		(at 165.1 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8085,7 +8072,6 @@
 	)
 	(label "vdd_div"
 		(at 199.39 15.24 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8096,7 +8082,6 @@
 	)
 	(label "vref"
 		(at 68.58 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8107,7 +8092,6 @@
 	)
 	(label "out+1001"
 		(at 137.16 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8118,7 +8102,6 @@
 	)
 	(label "vdd_div"
 		(at 179.07 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8129,7 +8112,6 @@
 	)
 	(label "vref"
 		(at 68.58 54.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8141,7 +8123,6 @@
 	(hierarchical_label "AIN3(2)"
 		(shape input)
 		(at 26.67 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8153,7 +8134,6 @@
 	(hierarchical_label "7.68 MHz clock input"
 		(shape input)
 		(at 127 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8165,7 +8145,6 @@
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 128.27 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8177,7 +8156,6 @@
 	(hierarchical_label "SRI_IN2"
 		(shape input)
 		(at 213.36 105.41 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8189,7 +8167,6 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 128.27 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8201,7 +8178,6 @@
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 128.27 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8213,7 +8189,6 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 128.27 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8225,7 +8200,6 @@
 	(hierarchical_label "CS"
 		(shape input)
 		(at 128.27 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8237,7 +8211,6 @@
 	(hierarchical_label "SRI_IN"
 		(shape input)
 		(at 213.36 156.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8855,112 +8828,6 @@
 		)
 	)
 	(symbol
-		(lib_id "adcs_board:LM324NSR")
-		(at 187.96 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a4e0d98-3312-47fa-a196-4eb3c4c0ea0e")
-		(property "Reference" "U29"
-			(at 203.835 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LM324NSR"
-			(at 203.835 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "adcs_board:NS14"
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LM324NSR"
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "4404afc5-46e2-4957-a88e-18b203954802")
-		)
-		(pin "12"
-			(uuid "cda630b9-75f9-4b10-92a5-c67ce5bd149d")
-		)
-		(pin "14"
-			(uuid "4b1d4ea0-c3e7-4ae1-8bed-fcfec15a2f8e")
-		)
-		(pin "3"
-			(uuid "1133fc91-76d6-4c99-9689-410e8ceaddba")
-		)
-		(pin "1"
-			(uuid "9b4a69d3-9b29-444a-ae0f-3920e292aa99")
-		)
-		(pin "11"
-			(uuid "fe444db9-a26d-456b-88d5-c4f0ced77908")
-		)
-		(pin "13"
-			(uuid "beb7bc6c-d4f9-4f30-aba3-4d054d5a6160")
-		)
-		(pin "2"
-			(uuid "4581d361-a7a8-4d70-b792-d8b8b9862e13")
-		)
-		(pin "4"
-			(uuid "cbb57624-a27b-47f8-99b8-e52b34d22134")
-		)
-		(pin "5"
-			(uuid "b96feed1-cb5a-4be4-9840-4dec4e1e4426")
-		)
-		(pin "6"
-			(uuid "5d7667e3-a48c-4030-9f8a-5c44de7279ac")
-		)
-		(pin "7"
-			(uuid "ddf8e3d6-644e-406c-8d4c-5ae57a96d8fe")
-		)
-		(pin "8"
-			(uuid "92e5631e-d695-47ad-8779-3f4fe62fc051")
-		)
-		(pin "9"
-			(uuid "ec25e388-30b6-47e3-8ace-34d00c2f70fb")
-		)
-		(instances
-			(project "adcs_board"
-				(path "/f0f7f298-c86d-4bb2-9a0f-4fdbbe17bbe0/f9c073a4-c5d7-42ce-af7b-d00a1ac82c3d/1f93e8c4-7501-4c35-85a9-05d12c5b30ee"
-					(reference "U29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 151.13 63.5 0)
 		(mirror y)
@@ -9402,7 +9269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ADS1257IRGWT"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1257"
 			(at 91.44 137.16 0)
 			(effects
 				(font
@@ -9412,7 +9279,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC ADC 24BIT SIGMA-DELTA 20VQFN"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
 			(at 91.44 137.16 0)
 			(effects
 				(font
@@ -10309,6 +10185,120 @@
 	)
 	(symbol
 		(lib_id "adcs_board:LM324NSR")
+		(at 187.96 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aa9202f-ffd1-47e8-ace1-bb0469b3604e")
+		(property "Reference" "U7"
+			(at 203.708 30.226 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM324NSR"
+			(at 203.708 32.766 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "adcs_board:NS14"
+			(at 187.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm224"
+			(at 187.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC OPAMP GP 4 CIRCUIT 14SO"
+			(at 187.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 187.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "56b1c52d-558f-4ad7-8b16-78e54a66fa86")
+		)
+		(pin "12"
+			(uuid "8f897360-4a1c-4162-bd25-918c0a51418d")
+		)
+		(pin "14"
+			(uuid "977459c9-034f-4352-846e-53ac5c7add8f")
+		)
+		(pin "3"
+			(uuid "e42fa335-fc3a-49ad-b4c6-65d742205011")
+		)
+		(pin "1"
+			(uuid "f35f1ffe-5e9c-441c-8ebc-4da8c2217040")
+		)
+		(pin "11"
+			(uuid "fc248132-0626-4ed3-a9e2-5457c07d3059")
+		)
+		(pin "13"
+			(uuid "69a4afdd-56d5-4565-aeb8-58c738b781be")
+		)
+		(pin "2"
+			(uuid "b6c60212-3b28-4b68-a2f7-9df827acc17c")
+		)
+		(pin "4"
+			(uuid "a854f38a-4c40-4691-b071-44d6f6ee6ef9")
+		)
+		(pin "5"
+			(uuid "ab661f14-457a-4977-9055-996697554131")
+		)
+		(pin "6"
+			(uuid "2fdf6cd9-243f-47a9-9929-0f7924a6d3f1")
+		)
+		(pin "7"
+			(uuid "0af14e4f-e93d-42e8-ac22-03a1712b186a")
+		)
+		(pin "8"
+			(uuid "fa54a276-3c9b-4f82-bcbb-5acbae153d1f")
+		)
+		(pin "9"
+			(uuid "42ee0203-e7d8-4a52-80f6-9cdb98d7f542")
+		)
+		(instances
+			(project "adcs_board"
+				(path "/f0f7f298-c86d-4bb2-9a0f-4fdbbe17bbe0/f9c073a4-c5d7-42ce-af7b-d00a1ac82c3d/1f93e8c4-7501-4c35-85a9-05d12c5b30ee"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "adcs_board:LM324NSR")
 		(at 95.25 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10342,7 +10332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM324NSR"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm224"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -10352,7 +10342,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP GP 4 CIRCUIT 14SO"
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -10853,7 +10852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1257"
 			(at 203.2 146.05 0)
 			(effects
 				(font
@@ -10873,76 +10872,6 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 International Rectifier"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=snap"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IRF7105"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=166689&manufacturer=Infineon Technologies&part_name=IRF7105&search_term=irf7105"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=eda"
 			(at 203.2 146.05 0)
 			(effects
 				(font
@@ -11628,7 +11557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "HMC1002-TR"
+		(property "Datasheet" "https://aerospace.honeywell.com/content/dam/aerobt/en/documents/learn/products/sensors/datasheet/N61-2056-000-000_MagneticSensors_HMC-ds.pdf"
 			(at 49.784 37.084 0)
 			(effects
 				(font
@@ -11638,8 +11567,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SENSOR MR WHEAT BRDG 20SOIC"
 			(at 45.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Honeywell Aerospace"
+			(at 45.72 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13032,7 +12970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
 			(at 245.11 142.24 0)
 			(effects
 				(font
@@ -13041,7 +12979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Integrated 80mΩ Power MOSFET"
 			(at 245.11 142.24 0)
 			(effects
 				(font
@@ -13052,116 +12990,6 @@
 		)
 		(property "MF" "Aerosemi Technology Co., Ltd"
 			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
-			(at 245.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 245.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 245.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 242.57 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 245.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MT3608"
-			(at 245.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            High Efficiency 1.2MHz\n2A Step Up Converter\n                        \n"
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 242.57 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Aero Semi"
-			(at 245.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14382,7 +14210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1257"
 			(at 203.2 95.25 0)
 			(effects
 				(font
@@ -14402,76 +14230,6 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 International Rectifier"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=snap"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IRF7105"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=166689&manufacturer=Infineon Technologies&part_name=IRF7105&search_term=irf7105"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=eda"
 			(at 203.2 95.25 0)
 			(effects
 				(font
@@ -15558,7 +15316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "HMC1001-RC"
+		(property "Datasheet" "https://aerospace.honeywell.com/content/dam/aerobt/en/documents/learn/products/sensors/datasheet/N61-2056-000-000_MagneticSensors_HMC-ds.pdf"
 			(at 94.234 39.37 0)
 			(effects
 				(font
@@ -15568,7 +15326,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SENSOR MR WHEAT BRIDGE 8PIN"
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Honeywell Aerospace"
 			(at 95.25 34.29 0)
 			(effects
 				(font
@@ -15914,7 +15681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
 			(at 246.38 91.44 0)
 			(effects
 				(font
@@ -15923,7 +15690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Integrated 80mΩ Power MOSFET"
 			(at 246.38 91.44 0)
 			(effects
 				(font
@@ -15932,118 +15699,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Aerosemi Technology Co., Ltd"
+		(property "MF" "AEROSEMI"
 			(at 237.49 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
-			(at 246.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 246.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 246.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 237.49 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 243.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 246.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 237.49 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MT3608"
-			(at 246.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            High Efficiency 1.2MHz\n2A Step Up Converter\n                        \n"
-			(at 237.49 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 243.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Aero Semi"
-			(at 246.38 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

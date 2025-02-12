@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Felipe/Documents/GitHub/ADCS/outputs/adcs_board/manufacturing_files/",
+      "plot": "C:/Users/Felipe/Documents/ADCS/outputs/adcs_board/gerber_files/",
       "pos_files": "C:/Users/Felipe/Documents/",
       "specctra_dsn": "",
       "step": "../drawing/adcs_board.step",

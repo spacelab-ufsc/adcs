@@ -9468,7 +9468,6 @@
 	)
 	(label "currentcoily"
 		(at 361.95 33.02 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9479,7 +9478,6 @@
 	)
 	(label "magnetorquerz2"
 		(at 57.15 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9490,7 +9488,6 @@
 	)
 	(label "currentcoilx"
 		(at 365.76 33.02 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9501,7 +9498,6 @@
 	)
 	(label "SS_AIN0"
 		(at 382.27 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9512,7 +9508,6 @@
 	)
 	(label "can_tx"
 		(at 149.86 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9523,7 +9518,6 @@
 	)
 	(label "can_n"
 		(at 21.59 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9534,7 +9528,6 @@
 	)
 	(label "can_n"
 		(at 105.41 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9545,7 +9538,6 @@
 	)
 	(label "5v_out"
 		(at 24.13 24.13 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9556,7 +9548,6 @@
 	)
 	(label "SS_AIN1"
 		(at 382.27 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9567,7 +9558,6 @@
 	)
 	(label "PLLFILT"
 		(at 252.73 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9578,7 +9568,6 @@
 	)
 	(label "can_p"
 		(at 38.1 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9589,7 +9578,6 @@
 	)
 	(label "magnetorquery"
 		(at 49.53 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9600,7 +9588,6 @@
 	)
 	(label "magnetorquery2"
 		(at 394.97 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9611,7 +9598,6 @@
 	)
 	(label "OSC2"
 		(at 78.74 62.23 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9622,7 +9608,6 @@
 	)
 	(label "SS_AIN0"
 		(at 24.13 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9633,7 +9618,6 @@
 	)
 	(label "can_p"
 		(at 19.05 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9644,7 +9628,6 @@
 	)
 	(label "magnetorquerz2"
 		(at 394.97 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9655,7 +9638,6 @@
 	)
 	(label "magnetorquery2"
 		(at 46.99 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9666,7 +9648,6 @@
 	)
 	(label "OSC2"
 		(at 82.55 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9677,7 +9658,6 @@
 	)
 	(label "OSC1"
 		(at 82.55 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9688,7 +9668,6 @@
 	)
 	(label "magnetorquerx"
 		(at 355.6 151.13 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9699,7 +9678,6 @@
 	)
 	(label "5v_out"
 		(at 172.72 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9710,7 +9688,6 @@
 	)
 	(label "magnetorquerz"
 		(at 59.69 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9721,7 +9698,6 @@
 	)
 	(label "can_n"
 		(at 110.49 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9732,7 +9708,6 @@
 	)
 	(label "can_n"
 		(at 40.64 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9743,7 +9718,6 @@
 	)
 	(label "magnetorquerz"
 		(at 394.97 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9754,7 +9728,6 @@
 	)
 	(label "can_tx"
 		(at 114.3 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9765,7 +9738,6 @@
 	)
 	(label "magnetorquerx2"
 		(at 328.93 151.13 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9776,7 +9748,6 @@
 	)
 	(label "OSC1"
 		(at 93.98 62.23 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9787,7 +9758,6 @@
 	)
 	(label "can_rx"
 		(at 149.86 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9798,7 +9768,6 @@
 	)
 	(label "PLLFILT"
 		(at 280.67 91.44 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9809,7 +9778,6 @@
 	)
 	(label "can_p"
 		(at 80.01 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9820,7 +9788,6 @@
 	)
 	(label "SS_AIN1"
 		(at 26.67 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9831,7 +9798,6 @@
 	)
 	(label "currentcoilz"
 		(at 388.62 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9842,7 +9808,6 @@
 	)
 	(label "can_p"
 		(at 105.41 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9853,7 +9818,6 @@
 	)
 	(label "magnetorquerx"
 		(at 54.61 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9864,7 +9828,6 @@
 	)
 	(label "magnetorquerx2"
 		(at 52.07 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9875,7 +9838,6 @@
 	)
 	(label "magnetorquery"
 		(at 308.61 151.13 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9886,7 +9848,6 @@
 	)
 	(label "can_rx"
 		(at 160.02 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9898,7 +9859,6 @@
 	(hierarchical_label "MAG_SPI_MISO"
 		(shape input)
 		(at 388.62 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9910,7 +9870,6 @@
 	(hierarchical_label "SS_SPI_SCK"
 		(shape input)
 		(at 379.73 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9922,7 +9881,6 @@
 	(hierarchical_label "SD_SPI_MOSI"
 		(shape input)
 		(at 207.01 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9934,7 +9892,6 @@
 	(hierarchical_label "SS_INT"
 		(shape input)
 		(at 379.73 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9946,7 +9903,6 @@
 	(hierarchical_label "GYRO_DRDY"
 		(shape input)
 		(at 186.69 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9958,7 +9914,6 @@
 	(hierarchical_label "can_int"
 		(shape input)
 		(at 148.59 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9970,7 +9925,6 @@
 	(hierarchical_label "MAG_I{slash}O_CLOCK"
 		(shape input)
 		(at 388.62 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9982,7 +9936,6 @@
 	(hierarchical_label "AIN2u7"
 		(shape input)
 		(at 370.84 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9994,7 +9947,6 @@
 	(hierarchical_label "enable_ehs"
 		(shape input)
 		(at 50.8 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10006,7 +9958,6 @@
 	(hierarchical_label "nfaultu8"
 		(shape input)
 		(at 388.62 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10018,7 +9969,6 @@
 	(hierarchical_label "SRI_IN"
 		(shape input)
 		(at 388.62 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10030,7 +9980,6 @@
 	(hierarchical_label "SS_SPI_MOSI"
 		(shape input)
 		(at 379.73 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10042,7 +9991,6 @@
 	(hierarchical_label "SD_SPI_SLK"
 		(shape input)
 		(at 205.74 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10054,7 +10002,6 @@
 	(hierarchical_label "MAG_CS_SS"
 		(shape input)
 		(at 388.62 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10066,7 +10013,6 @@
 	(hierarchical_label "MAG_INT"
 		(shape input)
 		(at 388.62 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10078,7 +10024,6 @@
 	(hierarchical_label "BIN2u8"
 		(shape input)
 		(at 388.62 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10090,7 +10035,6 @@
 	(hierarchical_label "nfaultu7"
 		(shape input)
 		(at 339.09 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10102,7 +10046,6 @@
 	(hierarchical_label "GYRO_I2C_SDL"
 		(shape input)
 		(at 185.42 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10114,7 +10057,6 @@
 	(hierarchical_label "can_reset"
 		(shape input)
 		(at 148.59 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10126,7 +10068,6 @@
 	(hierarchical_label "currentcoily"
 		(shape input)
 		(at 356.87 224.79 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10138,7 +10079,6 @@
 	(hierarchical_label "SWDCLK"
 		(shape input)
 		(at 83.82 173.99 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10150,7 +10090,6 @@
 	(hierarchical_label "SRI_IN2"
 		(shape input)
 		(at 388.62 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10162,7 +10101,6 @@
 	(hierarchical_label "can_ss"
 		(shape input)
 		(at 148.59 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10174,7 +10112,6 @@
 	(hierarchical_label "AIN1u8"
 		(shape input)
 		(at 388.62 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10186,7 +10123,6 @@
 	(hierarchical_label "can_miso"
 		(shape input)
 		(at 148.59 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10198,7 +10134,6 @@
 	(hierarchical_label "currentcoilx"
 		(shape input)
 		(at 360.68 224.79 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10210,7 +10145,6 @@
 	(hierarchical_label "SD_SPI_SS"
 		(shape input)
 		(at 204.47 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10222,7 +10156,6 @@
 	(hierarchical_label "HSE_IN"
 		(shape input)
 		(at 68.58 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10234,7 +10167,6 @@
 	(hierarchical_label "nsleepu8"
 		(shape input)
 		(at 313.69 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10246,7 +10178,6 @@
 	(hierarchical_label "BIN1u8"
 		(shape input)
 		(at 388.62 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10258,7 +10189,6 @@
 	(hierarchical_label "SS_I{slash}O_CLOCK"
 		(shape input)
 		(at 379.73 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10270,7 +10200,6 @@
 	(hierarchical_label "can_sck"
 		(shape input)
 		(at 148.59 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10282,7 +10211,6 @@
 	(hierarchical_label "AIN2u8"
 		(shape input)
 		(at 318.77 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10294,7 +10222,6 @@
 	(hierarchical_label "nsleepu7"
 		(shape input)
 		(at 360.68 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10306,7 +10233,6 @@
 	(hierarchical_label "GYRO_I2C_CS"
 		(shape input)
 		(at 186.69 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10318,7 +10244,6 @@
 	(hierarchical_label "GYRO_I2C_SDA"
 		(shape input)
 		(at 185.42 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10330,7 +10255,6 @@
 	(hierarchical_label "SS_CS"
 		(shape input)
 		(at 379.73 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10342,7 +10266,6 @@
 	(hierarchical_label "GYRO_I2C_SMBAI"
 		(shape input)
 		(at 185.42 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10354,7 +10277,6 @@
 	(hierarchical_label "SS_SPI_MISO"
 		(shape input)
 		(at 379.73 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10366,7 +10288,6 @@
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 81.28 173.99 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10378,7 +10299,6 @@
 	(hierarchical_label "can_mosi"
 		(shape input)
 		(at 148.59 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10390,7 +10310,6 @@
 	(hierarchical_label "currentin"
 		(shape input)
 		(at 241.3 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10402,7 +10321,6 @@
 	(hierarchical_label "MAG_SPI_MOSI"
 		(shape input)
 		(at 388.62 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10414,7 +10332,6 @@
 	(hierarchical_label "currentcoilz"
 		(shape input)
 		(at 353.06 224.79 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10426,7 +10343,6 @@
 	(hierarchical_label "AIN1u7"
 		(shape input)
 		(at 365.76 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10438,7 +10354,6 @@
 	(hierarchical_label "BIN1u7"
 		(shape input)
 		(at 350.52 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10450,7 +10365,6 @@
 	(hierarchical_label "SD_SPI_MISO"
 		(shape input)
 		(at 207.01 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10462,7 +10376,6 @@
 	(hierarchical_label "boot_ehs"
 		(shape input)
 		(at 27.94 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10474,7 +10387,6 @@
 	(hierarchical_label "BIN2u7"
 		(shape input)
 		(at 344.17 157.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10486,7 +10398,6 @@
 	(hierarchical_label "GYRO_INT"
 		(shape input)
 		(at 186.69 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10498,7 +10409,6 @@
 	(hierarchical_label "MAG_SPI_SCK"
 		(shape input)
 		(at 388.62 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11290,7 +11200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TMCS1101A3BQDRQ1"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmcs1101-q1"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -11300,7 +11210,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SENSOR CUR HALL 11.25A 8SOIC"
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -11985,7 +11904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://abracon.com/Resonators/ABLS.pdf"
 			(at 86.36 64.77 0)
 			(effects
 				(font
@@ -11994,7 +11913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CRYSTAL 8.0000MHZ 18PF SMD"
 			(at 86.36 64.77 0)
 			(effects
 				(font
@@ -12004,116 +11923,6 @@
 			)
 		)
 		(property "MF" "ABRACON"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2 mm"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ABLS-8.000MHZ-B2-T/Abracon/view-part/?ref=eda"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "02.16.2021"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABLS-8.000MHZ-B2-T/Abracon/view-part/?ref=snap"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ABLS-8.000MHZ-B2-T"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            CRYSTAL 8.0000MHZ 18PF SMD / AB Series HC49U Crystals, ABLS Series HC49US SMD Crystals, ABL Series HC49US Crystals, ABM3 Series 5.0 x 3.2 SMD Crystals\n                        \n"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Abracon"
 			(at 86.36 64.77 0)
 			(effects
 				(font
@@ -12156,7 +11965,7 @@
 				)
 			)
 		)
-		(property "Value" "GRM155R60J106ME15D"
+		(property "Value" "CL05B104KP5NNNC"
 			(at 269.24 34.29 90)
 			(effects
 				(font
@@ -12175,7 +11984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
 			(at 265.43 33.02 0)
 			(effects
 				(font
@@ -12184,7 +11993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 100nF Multilayer Ceramic MLCC25 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206071"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 265.43 33.02 0)
 			(effects
 				(font
@@ -12194,83 +12003,12 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Wurth Electronics Inc"
+		(property "MF" "Samsung Electro-Mechanics"
 			(at 265.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603 Wurth Electronics"
-			(at 265.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 265.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206071/Wurth+Electronics+Inc/view-part/?ref=snap"
-			(at 265.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "885012206071"
-			(at 265.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4217095&manufacturer=Wurth Electronics Inc&part_name=885012206071&search_term=capacito 100nf"
-			(at 265.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 265.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/885012206071/Wurth+Electronics+Inc/view-part/?ref=eda"
-			(at 265.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -12796,7 +12534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6128/AMS1117-5272.pdf"
 			(at 33.02 38.1 0)
 			(effects
 				(font
@@ -12805,7 +12543,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC REG LINEAR 3.3V 1A SOT-223-3L"
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "EVVO"
 			(at 35.56 31.75 0)
 			(effects
 				(font
@@ -12870,7 +12617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "472192001"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/472192001?display=pdf"
 			(at 232.918 123.952 0)
 			(effects
 				(font
@@ -12880,7 +12627,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN MICRO SD CARD R/A SMD"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Molex"
 			(at 237.49 129.54 0)
 			(effects
 				(font
@@ -12958,7 +12714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MCP2515-E/ML"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -12968,7 +12724,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC CAN CTLR SPI 2ND GEN 20QFN"
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Microchip Technology"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -14691,7 +14456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 40.64 0)
 			(effects
 				(font
@@ -15037,7 +14802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "A3G4250D"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5c/f1/a4/70/1b/fa/40/d2/DM00047823.pdf/files/DM00047823.pdf/jcr:content/translations/en.DM00047823.pdf"
 			(at 189.23 27.94 0)
 			(effects
 				(font
@@ -15047,7 +14812,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC MEMS MOTION SENSOR 16-LGA"
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
 			(at 189.23 27.94 0)
 			(effects
 				(font
@@ -15609,7 +15383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 25.0952 40.64 0)
 			(effects
 				(font
@@ -15735,7 +15509,7 @@
 				)
 			)
 		)
-		(property "Value" "GRM155R60J106ME15D"
+		(property "Value" "C0402C103K5RECAUTO"
 			(at 274.32 34.29 0)
 			(effects
 				(font
@@ -15754,7 +15528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C103K5RECAUTO"
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -15763,17 +15537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD capacitor X5R(EIA) with capacitance 10uF Tol.20%. Rated voltage 6.3Vdc 85C"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Murata"
+		(property "Description" "CAP CER 0402 10NF 50V X7R 10%"
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -15783,67 +15547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1005 Murata"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "GRM155R60J106ME15D"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1756108&manufacturer=Murata&part_name=GRM155R60J106ME15D&search_term=capacitor 10uf"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=eda"
+		(property "MF" "  KEMET"
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -16035,7 +15739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ASFL1-100.000MHZ-L-T"
+		(property "Datasheet" "https://abracon.com/Oscillators/ASFL1.pdf"
 			(at 34.29 121.92 0)
 			(effects
 				(font
@@ -16045,7 +15749,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XTAL OSC XO 100.0000MHZ HCMOS"
+			(at 34.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Abracon LLC"
 			(at 34.29 121.92 0)
 			(effects
 				(font

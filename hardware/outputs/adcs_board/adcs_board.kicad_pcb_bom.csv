@@ -1,0 +1,80 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,MF,Price,SnapEDA_Link,MP,Purchase-URL,Availability,Check_prices,Manufacturer_Name,Description_1,Mouser_Part_Number,Height,Mouser_Price-Stock,Arrow_Price-Stock,Arrow_Part_Number,MAXIMUM_PACKAGE_HEIGHT,STANDARD,PARTREV,MANUFACTURER
+"C1, C100, C5, C61, C63, C65, C98, C99",8,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+"C101, C102, C107, C108, C60, C76, C95, C97",8,10uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+"C103, C104, C62, C70",4,10nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+C105,1,2.2uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+C106,1,2u2F,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+"C2, C3",2,22pF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+C4,1,"0,01µF",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+"C52, C54, C83",3,22uF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+"C6, C7, C8, C9",4,22uF,C_0805_2012Metric,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+"C64, C67, C81, C82",4,1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+C68,1,GRM155R60J106ME15D,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1005 Murata,,,smt,SMD capacitor X5R(EIA) with capacitance 10uF Tol.20%. Rated voltage 6.3Vdc 85C,Murata,None,https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=snap,GRM155R60J106ME15D,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1756108&manufacturer=Murata&part_name=GRM155R60J106ME15D&search_term=capacitor 10uf,In Stock,https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=eda,,,,,,,,,,,
+C69,1,GRM155R60J106ME15D,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,0603 Wurth Electronics,,,smt,"Capacitor 100nF Multilayer Ceramic MLCC25 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206071",Wurth Electronics Inc,None,https://www.snapeda.com/parts/885012206071/Wurth+Electronics+Inc/view-part/?ref=snap,885012206071,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4217095&manufacturer=Wurth Electronics Inc&part_name=885012206071&search_term=capacito 100nf,In Stock,https://www.snapeda.com/parts/885012206071/Wurth+Electronics+Inc/view-part/?ref=eda,,,,,,,,,,,
+C71,1,470nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,
+"C72, C73, C78, C79, C84, C85",6,0.1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"C74, C75, C80, C86, C87",5,100pF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+C77,1,47uF,C_0805_2012Metric,,,,smt,,,,,,,,,,,,,,,,,,,
+"C88, C89, C90",3,0.1µ1F,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"C91, C92, C93, C94",4,0.47uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+C96,1,0.1µF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"D1, D2",2,RB521S30T1G,D_SOD-523,,,,smt,Schottky diode,,,,,,,,,,,,,,,,,,
+"D10, D6, D8, D9",4,150080GS75000,LED_0805_2012Metric,,,,smt,Light emitting diode,,,,,,,,,,,,,,,,,,
+FB2,1,2508051217Y6,IND_25_0805_FRT,,,,smt,Ferrite bead,,,,,,,,,,,,,,,,,,
+IC1,1,STM32F411VCT6,QFP50P1600X1600X160-100N,LQFP-100 STMicroelectronics,STM32F411VCT6,,smt,,STMicroelectronics,None,https://www.snapeda.com/parts/STM32F411VCT6/STMicroelectronics/view-part/?ref=snap,STM32F411VCT6,,In Stock,https://www.snapeda.com/parts/STM32F411VCT6/STMicroelectronics/view-part/?ref=eda,STMicroelectronics,"
+                        
+                            ARM® Cortex®-M4 STM32F4 Microcontroller IC 32-Bit Single-Core 100MHz 256KB (256K x 8) FLASH 100-LQFP (14x14)
+                        
+",511-STM32F411VCT6,1.6mm,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F411VCT6?qs=9MuLHSklicpA%252Boq5qlUbUA%3D%3D,https://www.arrow.com/en/products/stm32f411vct6/stmicroelectronics?region=nac,STM32F411VCT6,,,,
+J1,1,472192001,CONN_47219-2001_MOL,,,,smt,,,,,,,,,,,,,,,,,,,
+"J5, J7",2,2053380006,MOLEX_2053380006,None,,,smt,,Molex,None,https://www.snapeda.com/parts/2053380006/Molex/view-part/?ref=snap,2053380006,,In Stock,https://www.snapeda.com/parts/2053380006/Molex/view-part/?ref=eda,,"
+Connector Header Surface Mount, Right Angle 6 position 0.079 (2.00mm)
+",,,,,,2.6 mm,Manufacturer Recommendations,B,Molex
+J6,1,5055671081,MOLEX_5055671081,None,,,smt,,Molex,None,https://www.snapeda.com/parts/5055671081/Molex/view-part/?ref=snap,5055671081,,In Stock,https://www.snapeda.com/parts/5055671081/Molex/view-part/?ref=eda,,"
+1.25mm Pitch, Micro-Lock Plus PCB Header, Right-Angle, Surface Mount, 0.10µm Gold Plating, Positive Lock, 10 Circuits, Black
+",,,,,,3.9 mm,Manufacturer Recommendations,C,Molex
+J8,1,MTLW-104-05-G-S-170-ND,SAMTEC_MTLW-104-X-X-S-X,None,,,tht,,Samtec,None,https://www.snapeda.com/parts/MTLW-104-07-T-S-300/Samtec/view-part/?ref=snap,MTLW-104-07-T-S-300,,In Stock,https://www.snapeda.com/parts/MTLW-104-07-T-S-300/Samtec/view-part/?ref=eda,,"
+                        
+                            Connector Header Through Hole 4 position 0.100 (2.54mm)
+                        
+",,,,,,,Manufacturer Recommendations,A,Samtec
+"L1, L2",2,4.7uH,L_0603_1608Metric,,,,smt,Inductor,,,,,,,,,,,,,,,,,,
+"R1, R24, R26, R27, R28, R29, R30, R31, R32",9,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+R2,1,120,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,Resistor,,,,,,,,,,,,,,,,,,
+"R3, R5",2,7.5k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,smt,Resistor,,,,,,,,,,,,,,,,,,
+"R33, R34, R35, R53, R69, R70, R71, R72",8,301,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"R4, R6",2,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,smt,Resistor,,,,,,,,,,,,,,,,,,
+"R63, R64, R65, R66, R67, R68, R81, R82, R83, R84, R85, R86",12,50,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"R73, R74, R75, R76, R79, R80, R87, R88, R89",9,4.99k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"R77, R78",2,360k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,Resistor,,,,,,,,,,,,,,,,,,
+"R90, R92",2,100,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"R91, R93",2,1K,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,,,,,,,,,,,,,,,,,,,
+"R94, R95, R96",3,4k7,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,Resistor,,,,,,,,,,,,,,,,,,
+"T3, T4",2,IRF7105TR,SO8,SOIC-8 International Rectifier,,,smt,"Mosfet Array N and P-Channel 25V 3.5A, 2.3A 2W Surface Mount 8-SO",Infineon Technologies,None,https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=snap,IRF7105,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=166689&manufacturer=Infineon Technologies&part_name=IRF7105&search_term=irf7105,Not in stock,https://www.snapeda.com/parts/IRF7105/Infineon+Technologies/view-part/?ref=eda,,,,,,,,,,,
+U1,1,MCP2515-E/ML,QFN20_4x4MC_MCH-L,,,,smt,,,,,,,,,,,,,,,,,,,
+U18,1,AMS1117-3.3,SOT-223-3_TabPin2,,,,smt,,,,,,,,,,,,,,,,,,,
+U19,1,A3G4250D,LGA-16_4X4X1P1_STM-L,,,,smt,,,,,,,,,,,,,,,,,,,
+"U2, U20, U3, U4",4,TMCS1101A3BQDRQ1,SOIC8_D_TEX-L,,,,smt,,,,,,,,,,,,,,,,,,,
+U22,1,SN65HVD230DR,SOIC127P599X175-8N,SOIC-8 Texas Instruments,,,smt,,Texas Instruments,None,https://www.snapeda.com/parts/SN65HVD230/Texas+Instruments/view-part/?ref=snap,SN65HVD230,,In Stock,https://www.snapeda.com/parts/SN65HVD230/Texas+Instruments/view-part/?ref=eda,,"
+1/1 Transceiver Half CANbus 8-SOIC
+",,,,,,1.75 mm,IPC 7351B,02/2019,Texas Instruments
+"U23, U28",2,ADS1257IRGWT,RGW0020A,,,,smt,,,,,,,,,,,,,,,,,,,
+U24,1,REF5025AID,SOIC127P599X175-8N,SOIC-8 Texas Instruments,,,smt,,Texas Instruments,None,https://www.snapeda.com/parts/REF5025AID/Texas+Instruments/view-part/?ref=snap,REF5025AID,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=98520&manufacturer=Texas Instruments&part_name=REF5025AID&search_term=None,In Stock,https://www.snapeda.com/parts/REF5025AID/Texas+Instruments/view-part/?ref=eda,,"
+2.5-V, 3-µVpp/V noise, 3-ppm/°C drift precision series voltage reference
+",,,,,,,,,
+U25,1,HMC1002-TR,SOIC20_HNW,,,,smt,,,,,,,,,,,,,,,,,,,
+"U26, U29",2,LM324NSR,NS14,,,,smt,,,,,,,,,,,,,,,,,,,
+U27,1,HMC1001-RC,SIP8_HMC1001_HNW,,,,tht,,,,,,,,,,,,,,,,,,,
+"U30, U31",2,DRV8833RTYR,RTY16,,,,smt,,,,,,,,,,,,,,,,,,,
+"U5, U6",2,MT3608,SOT95P280X145-6N,Package,,,smt,,"Aerosemi Technology Co., Ltd",None,https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=snap,MT3608,,Not in stock,https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=eda,,"
+                        
+                            High Efficiency 1.2MHz
+2A Step Up Converter
+                        
+",,,,,,1.45mm,IPC-7351B,1.0,Aero Semi
+XTAL1,1,ASFL1-100.000MHZ-L-T,ASFL1_ABR,,,,smt,,,,,,,,,,,,,,,,,,,
+Y1,1,ABLS-8.000MHZ-B2-T,XTAL_ABLS-8.000MHZ-B2-T,None,,,smt,,ABRACON,None,https://www.snapeda.com/parts/ABLS-8.000MHZ-B2-T/Abracon/view-part/?ref=snap,ABLS-8.000MHZ-B2-T,,In Stock,https://www.snapeda.com/parts/ABLS-8.000MHZ-B2-T/Abracon/view-part/?ref=eda,,"
+                        
+                            CRYSTAL 8.0000MHZ 18PF SMD / AB Series HC49U Crystals, ABLS Series HC49US SMD Crystals, ABL Series HC49US Crystals, ABM3 Series 5.0 x 3.2 SMD Crystals
+                        
+",,,,,,4.2 mm,Manufacturer Recommendations,02.16.2021,Abracon
