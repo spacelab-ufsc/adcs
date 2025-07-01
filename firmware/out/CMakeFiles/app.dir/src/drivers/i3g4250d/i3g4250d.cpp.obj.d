@@ -1,0 +1,26 @@
+CMakeFiles/app.dir/src/drivers/i3g4250d/i3g4250d.cpp.obj: \
+ /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/i3g4250d/i3g4250d.cpp \
+ /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/i3g4250d/i3g4250d.h \
+ /rtems/rtems/6/lib/gcc/arm-rtems6/13.3.0/include/stdint.h \
+ /rtems/rtems/6/arm-rtems6/include/stdint.h \
+ /rtems/rtems/6/arm-rtems6/include/machine/_default_types.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/features.h \
+ /rtems/rtems/6/arm-rtems6/include/_newlib_version.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/_intsup.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/_stdint.h \
+ /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/i3g4250d/../spi_commons.h \
+ /rtems/rtems/6/arm-rtems6/include/stdio.h \
+ /rtems/rtems/6/arm-rtems6/include/_ansi.h \
+ /rtems/rtems/6/arm-rtems6/include/newlib.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/config.h \
+ /rtems/rtems/6/arm-rtems6/include/machine/ieeefp.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/cdefs.h \
+ /rtems/rtems/6/lib/gcc/arm-rtems6/13.3.0/include/stddef.h \
+ /rtems/rtems/6/lib/gcc/arm-rtems6/13.3.0/include/stdarg.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/reent.h \
+ /rtems/rtems/6/arm-rtems6/include/_ansi.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/_types.h \
+ /rtems/rtems/6/arm-rtems6/include/machine/_types.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/lock.h \
+ /rtems/rtems/6/arm-rtems6/include/sys/stdio.h \
+ /rtems/rtems/6/lib/gcc/arm-rtems6/13.3.0/include/stdbool.h

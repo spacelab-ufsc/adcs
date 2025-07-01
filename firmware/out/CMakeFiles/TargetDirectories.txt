@@ -1,0 +1,3 @@
+/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out/CMakeFiles/app.dir
+/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out/CMakeFiles/edit_cache.dir
+/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out/CMakeFiles/rebuild_cache.dir
