@@ -1,0 +1,4 @@
+../Core/Src/drivers/bm1422/bm1422.c:14:19:BM1422_Init	1
+../Core/Src/drivers/bm1422/bm1422.c:19:19:BM1422_ReadData	2
+../Core/Src/drivers/bm1422/bm1422.c:40:19:BM1422_WriteRegister	1
+../Core/Src/drivers/bm1422/bm1422.c:51:19:BM1422_ReadRegister	1

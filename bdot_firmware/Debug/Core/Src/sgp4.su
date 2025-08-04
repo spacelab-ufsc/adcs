@@ -1,0 +1,10 @@
+../Core/Src/sgp4.c:130:10:dpper	328	static
+../Core/Src/sgp4.c:331:10:dscom	480	static
+../Core/Src/sgp4.c:594:10:dsinit	504	static
+../Core/Src/sgp4.c:874:10:dspace	240	static
+../Core/Src/sgp4.c:1066:10:initl	152	static
+../Core/Src/sgp4.c:1211:10:sgp4init	808	static
+../Core/Src/sgp4.c:1543:10:sgp4	1096	static
+../Core/Src/sgp4.c:1859:10:getgravconst	16	static
+../Core/Src/sgp4.c:1928:12:gstime	40	static
+../Core/Src/sgp4.c:1977:10:jday	56	static

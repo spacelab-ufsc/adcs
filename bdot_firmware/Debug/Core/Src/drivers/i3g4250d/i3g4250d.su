@@ -1,0 +1,12 @@
+../Core/Src/drivers/i3g4250d/i3g4250d.c:100:6:I3G4250D_Init	24	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:123:6:I3G4250D_DeInit	4	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:132:9:I3G4250D_ReadID	16	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:151:6:I3G4250D_RebootCmd	16	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:171:6:I3G4250D_LowPower	24	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:185:6:I3G4250D_INT1InterruptConfig	24	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:216:6:I3G4250D_EnableIT	24	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:246:6:I3G4250D_DisableIT	24	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:273:6:I3G4250D_FilterConfig	24	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:297:6:I3G4250D_FilterCmd	24	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:317:9:I3G4250D_GetDataStatus	16	static
+../Core/Src/drivers/i3g4250d/i3g4250d.c:332:6:I3G4250D_ReadXYZAngRate	56	static
