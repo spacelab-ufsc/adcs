@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+
+import sys
+import struct
+import argparse
+
+COMPART_TLE_FORMAT_STRING = '>H d I f f f d d d'
+
+def parse_tle(lines):
+    """
+    Parses TLE lines into compact_tle_t format.
+    """
+    if len(lines) < 2:
+        raise ValueError("At least two TLE lines are required.")
+
+    line1, line2 = lines[:2]
+
+    epoch_year = int(line1[18:20])  # Extract last two digits of the year
+    epoch_day = float(line1[20:32])  # Fractional day of the year
+    eccentricity_str = line2[26:33].lstrip("0")  # Remove leading zeros
+    eccentricity = int(eccentricity_str) if eccentricity_str else 0  # Convert to int
+    mean_anomaly = float(line2[43:51])
+    argument_of_perigee = float(line2[34:42])
+    bstar_drag_term = (1.0e-5 * float(line1[53:59])) / (10 ** int(line1[60]))  # Convert scientific notation
+    inclination = float(line2[8:16])
+    right_ascension = float(line2[17:25])
+    mean_motion = float(line2[52:63])
+
+    return (
+        epoch_year, epoch_day, eccentricity, mean_anomaly,
+        argument_of_perigee, bstar_drag_term, inclination,
+        right_ascension, mean_motion
+    )
+
+def convert_to_binary(data):
+    """
+    Converts the extracted TLE data to the binary format of compact_tle_t.
+    """
+    epoch_year, epoch_day, eccentricity, mean_anomaly, argument_of_perigee, \
+        bstar_drag_term, inclination, right_ascension, mean_motion = data
+
+    packed_data = struct.pack(COMPART_TLE_FORMAT_STRING, 
+        epoch_year, epoch_day, eccentricity,
+        mean_anomaly, argument_of_perigee, bstar_drag_term,
+        inclination, right_ascension, mean_motion
+    )
+
+    return packed_data
+
+def format_c_array(binary_data):
+    """
+    Formats binary data as a C array initializer.
+    """
+    byte_list = ", ".join(f"0x{b:02X}" for b in binary_data)
+    return f"{{ {byte_list} }}"
+
+def print_tle_compact_fields(binary_data):
+    """
+    Deserializes the fields binary data and print them to stdout.
+    """
+    (epoch_year, epoch_day, eccentricity, mean_anomaly, argument_of_perigee, \
+        bstar_drag_term, inclination, right_ascension, mean_motion) = struct.unpack(COMPART_TLE_FORMAT_STRING, binary_data)
+
+    print(f'Epoch Year: {epoch_year}')
+    print(f'Epoch Day: {epoch_day}')
+    print(f'Eccentricity: {eccentricity}')
+    print(f'Mean Anomaly: {mean_anomaly}')
+    print(f'Argument of Perigee: {argument_of_perigee}')
+    print(f'Bstar drag term: {bstar_drag_term}')
+    print(f'Inclination: {inclination}')
+    print(f'RAAN: {right_ascension}')
+    print(f'Mean Motion: {mean_motion}')
+
+def main():
+    """
+    Main function to process command-line arguments using argparse.
+    """
+    parser = argparse.ArgumentParser(description="Convert TLE to binary compact_tle_t format.")
+    parser.add_argument("tle1", metavar="TLE_LINE_1", type=str, help="First TLE line")
+    parser.add_argument("tle2", metavar="TLE_LINE_2", type=str, help="Second TLE line")
+    parser.add_argument("-o", "--output", metavar="FILE", type=str, help="Output binary file")
+    parser.add_argument("--print-hex", action="store_true", help="Print ASCII hex representation")
+    parser.add_argument("--print-c-array", action="store_true", help="Print C array representation")
+    parser.add_argument("--print-fields", action="store_true", help="Print parsed fields")
+
+    args = parser.parse_args()
+
+    try:
+        tle_data = parse_tle([args.tle1, args.tle2])
+        binary_output = convert_to_binary(tle_data)
+
+        # Print ASCII hex representation if requested
+        if args.print_hex:
+            hex_representation = binary_output.hex().upper()
+            print(f"ASCII Hex: {hex_representation}")
+
+        # Print as C array format if requested
+        if args.print_c_array:
+            c_array = format_c_array(binary_output)
+            print(f"C Array({len(binary_output)} bytes): {c_array}")
+
+        # Print parsed compact fields
+        if args.print_fields:
+            print_tle_compact_fields(binary_output)
+
+        # If an output file is specified, write the binary data
+        if args.output:
+            with open(args.output, "wb") as f:
+                f.write(binary_output)
+
+    except Exception as e:
+        print("Error:", e, file=sys.stderr)
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
+
