@@ -2,8 +2,8 @@
     "cmake.sourceDirectory": "/home/felipe/Documentos/adcs-bdot/firmware/os",
     "files.associations": {
         "i2c.h": "c",
-        "rcc.h": "c"
-    },
-    "C_Cpp.errorSquiggles": "disabled",
-    "C_Cpp.dimInactiveRegions": false
+        "gpio.h": "c",
+        "condition_variable": "c",
+        "cstdint": "c"
+    }
 }
