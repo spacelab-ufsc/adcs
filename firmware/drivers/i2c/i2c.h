@@ -1,7 +1,7 @@
 #ifndef I2C_DRIVER_H
 #define I2C_DRIVER_H
 
-#include <libopencm3/stm32/i2c.h>
+#include <hal/include/libopencm3/stm32/f1/i2c.h>
 #include <stdbool.h>
 #include <stdint.h>
 

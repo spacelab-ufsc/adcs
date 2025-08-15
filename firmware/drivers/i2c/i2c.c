@@ -2,11 +2,11 @@
  * i2c.c
  * * Copyright The ADCS Contributors.
  * * This file is part of ADCS.
- * * SLCam is free software: you can redistribute it and/or modify
+ * * ADCS is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * * SLCam is distributed in the hope that it will be useful,
+ * * ADCSis distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
@@ -24,7 +24,6 @@
  */
 #include "i2c.h"
 #include <hal/include/libopencm3/stm32/f1/i2c.h>
-#include <hal/include/libopencm3/cm3/common.h>
 
 #define I2C_TIMEOUT 100000
 
