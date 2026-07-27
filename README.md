@@ -63,9 +63,9 @@ patch -p1 < ../patches/custom_bsp_fix.patch
 ```
 
 **4. Configure the Build Environment**
-Initialize the build context using the Waf build system. Adjust the toolchain relative path as needed:
+Initialize the build context using the Waf build system targeting the STM32F4 BSP:
 ```bash
-./waf configure --prefix=../build_dir --rtems-bsp=arm/xilinx_zynq_a9_qemu --rtems-tools=../../opt/rtems/6
+./waf configure --prefix=../build_dir --rtems-bsp=arm/stm32f4 --rtems-tools=../../opt/rtems/6
 ```
 
 **5. Compile and Install**
@@ -79,11 +79,4 @@ Build the modified kernel and install the final artifacts into the output direct
 
 ```bash
 make flash
-```
-
-*(Optional) Verification*
-To confirm the build was successful, you can test the binary in an emulator before flashing to the board:
-```bash
-cd ../build_dir
-qemu-system-arm -M xilinx-zynq-a9 -m 256M -no-reboot -serial null -serial mon:stdio -nographic -kernel ../build_dir/arm-rtems6/xilinx_zynq_a9_qemu/testsuites/samples/hello.exe
 ```
