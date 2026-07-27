@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/drivers/i3g4250d/i3g4250d.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/i3g4250d/i3g4250d.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/i3g4250d/i3g4250d.cpp",
+  "output": "CMakeFiles/app.dir/src/drivers/i3g4250d/i3g4250d.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/drivers/spi_commons.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/spi_commons.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/spi_commons.cpp",
+  "output": "CMakeFiles/app.dir/src/drivers/spi_commons.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/drivers/telemetry/adcs_telemetry.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/telemetry/adcs_telemetry.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/telemetry/adcs_telemetry.cpp",
+  "output": "CMakeFiles/app.dir/src/drivers/telemetry/adcs_telemetry.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/drivers/telemetry/telemetry.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/telemetry/telemetry.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/telemetry/telemetry.cpp",
+  "output": "CMakeFiles/app.dir/src/drivers/telemetry/telemetry.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/drivers/uart/uart.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/uart/uart.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/uart/uart.cpp",
+  "output": "CMakeFiles/app.dir/src/drivers/uart/uart.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/drivers/utils/HK_ADCS_STATUS.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/utils/HK_ADCS_STATUS.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/drivers/utils/HK_ADCS_STATUS.cpp",
+  "output": "CMakeFiles/app.dir/src/drivers/utils/HK_ADCS_STATUS.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/pus/pus.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus.cpp",
+  "output": "CMakeFiles/app.dir/src/pus/pus.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/pus/pus_crc.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus_crc.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus_crc.cpp",
+  "output": "CMakeFiles/app.dir/src/pus/pus_crc.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/pus/pus_dispatch.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus_dispatch.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus_dispatch.cpp",
+  "output": "CMakeFiles/app.dir/src/pus/pus_dispatch.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/pus/pus_parser.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus_parser.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/pus/pus_parser.cpp",
+  "output": "CMakeFiles/app.dir/src/pus/pus_parser.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/rtems/init.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/init.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/init.cpp",
+  "output": "CMakeFiles/app.dir/src/rtems/init.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/rtems/interrupts/uart_isr.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/interrupts/uart_isr.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/interrupts/uart_isr.cpp",
+  "output": "CMakeFiles/app.dir/src/rtems/interrupts/uart_isr.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/rtems/queues/queue.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/queues/queue.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/queues/queue.cpp",
+  "output": "CMakeFiles/app.dir/src/rtems/queues/queue.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/rtems/tasks/bdot_task.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/bdot_task.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/bdot_task.cpp",
+  "output": "CMakeFiles/app.dir/src/rtems/tasks/bdot_task.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/rtems/tasks/housekeeping_task.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/housekeeping_task.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/housekeeping_task.cpp",
+  "output": "CMakeFiles/app.dir/src/rtems/tasks/housekeeping_task.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/rtems/tasks/sendreports_task.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/sendreports_task.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/sendreports_task.cpp",
+  "output": "CMakeFiles/app.dir/src/rtems/tasks/sendreports_task.cpp.obj"
+},
+{
+  "directory": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/out",
+  "command": "/rtems/rtems/6/bin/arm-rtems6-g++  -I/opt/rtems/6/arm-rtems6/stm32f4/lib/include -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=auto -isystem/opt/rtems/6/arm-rtems6/stm32f4/lib/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -flto -o CMakeFiles/app.dir/src/rtems/tasks/watchdogtask.cpp.obj -c /home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/watchdogtask.cpp",
+  "file": "/home/felipe-juliano/Documentos/spcelab/adcs-bdot/src/rtems/tasks/watchdogtask.cpp",
+  "output": "CMakeFiles/app.dir/src/rtems/tasks/watchdogtask.cpp.obj"
+}
+]

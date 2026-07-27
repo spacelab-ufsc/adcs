@@ -18,7 +18,7 @@ The product tree of the firmware can be seen below:
 
 ## Dependencies
 
-* arm-none-eabi tools
+* RTEMS Project
 - st-link tools
 
 ### Installation on Ubuntu
