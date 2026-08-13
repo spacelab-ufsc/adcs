@@ -1,82 +1,56 @@
 <h1 align="center">
-    ADCS Bdot FIRMWARE PROJECT
-    <br>
+	ATTITUDE DETERMINATION AND CONTROL SYSTEM
+	<br>
 </h1>
 
-<h4 align="center">Firmware project of the ADCS `Bdot Version` module.</h4>
+<h4 align="center">Attitude determination and control system designed and developed by SpaceLab.</h4>
 
 <p align="center">
-    <a href="#overview">Overview</a> •
-    <a href="#dependencies">Dependencies</a> •
-    <a href="#compiling-and-building">Compiling and building</a> •
-    <a href="#flashing">Flashing</a>
+	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/adcs/releases">
+		<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/spacelab-ufsc/adcs?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/adcs/releases">
+		<img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/spacelab-ufsc/adcs/latest?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/adcs/commits/master">
+		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/spacelab-ufsc/adcs?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/adcs/issues">
+		<img alt="GitHub issues" src="https://img.shields.io/github/issues/spacelab-ufsc/adcs?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/adcs/graphs/contributors">
+		<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/spacelab-ufsc/adcs?color=yellow&style=for-the-badge">
+	</a>
+</p>
+
+<p align="center">
+  	<a href="#overview">Overview</a> •
+  	<a href="#repository-organization">Repository Organizarion</a> •
+  	<a href="#license">License</a> •
+  	<a href="#releases">Releases</a> •
+  	<a href="#notes">Notes</a>
 </p>
 
 ## Overview
 
-The product tree of the firmware can be seen below:
+The SpaceLab ADCS (Attitude Determination and Control System) is one of the modules developed for a 3U Cubesat mission. The ADCS is responsible for the active control and determination of the cubesat orientation in space. It has 3 magnetorquers, one for each axis, that are the actuators, the interaction of the actuators with the earth's magnetic fields will produce the torque for the estabilization or pointing of the cubesat. The module has de-tumbling and pointing capabilities.
 
-```text
-rtems_project/
-├── patches/            # Custom .patch files for the kernel
-├── rtems-source/       # Original source code cloned from RTEMS
-└── build_dir/          # Output directory for the compiled firmware
-```
+## Repository Organization
+	- doc: Technical documentation (including firmware, hardware, user guide, and datasheet).
+	- firmware: ADCS module firmware project (sources and configs)
+	- hardware: ADCS module hardware project (sources and outputs).
 
-Compiling this RTEMS-based firmware requires applying patches to the base kernel to add support for specific hardware (BSPs) or to modify real-time behaviors before building.
+## License
 
-## Dependencies
+This project is open-source under three different licenses: GNU General Public License v3.0 for firmware sources, CERN Open Hardware License v2.0 for hardware files, and CC BY-SA 4.0 for the documentation. Some third-part files and libraries are subjected to their specific terms and licenses.
 
-* RTEMS Project Toolchain
-* st-link tools
+## Releases
 
-### Installation on Ubuntu
+The ADCS software and hardware releases are synchronized in order to garantee compatibility. Then, using diferent versions might lead to unpredictable behavior. Refer to the [documentation](https://github.com/spacelab-ufsc/adcs/tree/master/doc) for compatibility notes.
 
-```bash
-sudo apt install gcc-arm-none-eabi stlink-tools
-```
+## Notes
 
-### Installation on Fedora
-
-```bash
-sudo dnf install gcc-arm-linux-gnu stlink
-```
-
-## Compiling and building
-
-The build process uses strictly relative paths. Follow the sequence below to download the source, apply patches, and compile:
-
-**1. Download the RTEMS Source Code**
-```bash
-git clone git://git.rtems.org/rtems.git rtems-source
-```
-
-**2. Navigate to the Source Tree**
-```bash
-cd rtems-source
-```
-
-**3. Apply the Patch to the Kernel**
-Apply the patch fetching the file from the sibling directory:
-```bash
-patch -p1 < ../patches/custom_bsp_fix.patch
-```
-
-**4. Configure the Build Environment**
-Initialize the build context using the Waf build system targeting the STM32F4 BSP:
-```bash
-./waf configure --prefix=../build_dir --rtems-bsp=arm/stm32f4 --rtems-tools=../../opt/rtems/6
-```
-
-**5. Compile and Install**
-Build the modified kernel and install the final artifacts into the output directory:
-```bash
-./waf build
-./waf install
-```
-
-## Flashing
-
-```bash
-make flash
-```
+More info about the SpaceLab: [GitHub](https://github.com/spacelab-ufsc/spacelab) and [Website](https://spacelab.ufsc.br/en/home/)
