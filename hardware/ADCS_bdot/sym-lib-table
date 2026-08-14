@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Symbollib_adcs_bdot")(type "KiCad")(uri "${KIPRJMOD}/Symbollib_adcs_bdot.kicad_sym")(options "")(descr ""))
+)

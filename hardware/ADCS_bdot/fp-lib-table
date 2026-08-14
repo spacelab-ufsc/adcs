@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Symbollib_adcs_bdot")(type "KiCad")(uri "${KIPRJMOD}/Symbollib_adcs_bdot.pretty")(options "")(descr ""))
+  (lib (name "Footprintlib_adcs_bdot")(type "KiCad")(uri "${KIPRJMOD}/Footprintlib_adcs_bdot.pretty")(options "")(descr ""))
+)

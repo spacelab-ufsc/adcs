@@ -133,50 +133,6 @@
           ""
         ],
         [
-          "clearance|184857475|108767751|72064c6b-4195-40fa-90ca-743e4101abdf|cd92be3a-6f82-4aa3-83bd-4d1e41a7415b",
-          ""
-        ],
-        [
-          "clearance|184857475|111307751|00f0e0bb-48c1-4559-85f7-a822b8ce59ea|0eee6d28-ea68-4a26-b1b1-f235aed55ad1",
-          ""
-        ],
-        [
-          "clearance|184857475|113847751|7a70bf90-b6ad-44e5-baf5-ecf682cc15a7|d2a89d70-3154-4e53-b179-7614cb5aa1c4",
-          ""
-        ],
-        [
-          "clearance|184857475|116387751|b1f8a224-d803-4d53-9de2-828bac3b6bb6|bb13d411-dafe-4dcb-a574-02d8dd3be870",
-          ""
-        ],
-        [
-          "copper_edge_clearance|107562975|136960681|bad203c7-3774-479a-bb45-5711109efd3f|dd69db6f-5b99-4cfd-9b4e-ab56905a723e",
-          ""
-        ],
-        [
-          "copper_edge_clearance|111438975|51303081|ba1022e4-83b5-47a7-afe9-6555172d6fc1|6c7fab37-ba66-4332-8c5d-95c500d5599f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|185114975|51312911|5e8e8196-9805-4c22-848a-5e3075a87d48|584aa0c9-3532-45a4-925e-37a009fce6d2",
-          ""
-        ],
-        [
-          "copper_edge_clearance|187584975|136949501|4ca38a04-314a-41f6-ae62-ba982f9a9806|7bfe8f7d-d6c0-4758-a85a-2e489598624b",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|107490225|73350251|eb7fde59-9ab1-4318-981e-19130b06913a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|108889975|122350251|5da47f7a-2df4-4467-8b8f-fd97efd8ffa3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|108889975|96564751|69f8d44c-346f-44be-9ee9-b53cf27b8083|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|147214975|74250251|19029ef0-a13d-4c01-b607-bdc7232516d1|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -402,6 +358,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -773,6 +730,7 @@
       "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -1018,7 +976,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,

@@ -1,0 +1,300 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9a605480-5564-4a0e-ba7b-19a361378337")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 71.12 50.8)
+		(size 41.91 87.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "09105f10-a949-43fe-bd4d-bca407919f43")
+		(property "Sheetname" "Power"
+			(at 71.12 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 71.12 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWR_IN" input
+			(at 71.12 68.58 180)
+			(uuid "8fe60e98-61fe-419c-8b36-cf30d2571d27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADCS_bdot"
+				(path "/9a605480-5564-4a0e-ba7b-19a361378337"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 114.3)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "50f9c94e-35fa-4018-9fe4-55026ddad35f")
+		(property "Sheetname" "Magnetometer"
+			(at 129.54 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Magnetometer.kicad_sch"
+			(at 129.54 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "INT_MAG" output
+			(at 171.45 121.92 0)
+			(uuid "c10f0d0b-7e4e-41dd-b00d-4dac167810d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 171.45 124.46 0)
+			(uuid "9bfc0de4-ef3c-4ab8-9573-e23dc9aee2de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 171.45 127 0)
+			(uuid "b38cbc53-7212-45d7-8563-213be2b1c9f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_MAG" input
+			(at 171.45 119.38 0)
+			(uuid "11c79d8e-3996-453c-a6ed-a81e37a2d896")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ADCS_bdot"
+				(path "/9a605480-5564-4a0e-ba7b-19a361378337"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 86.36)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "e00c3143-0934-42d9-9950-a1681b014fb0")
+		(property "Sheetname" "Gyroscope"
+			(at 129.54 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gyroscope.kicad_sch"
+			(at 129.54 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DRDY_GYRO" output
+			(at 171.45 93.98 0)
+			(uuid "f5e76c82-a76f-4a8a-b25b-8cc5771f5a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT1_GYRO" output
+			(at 171.45 96.52 0)
+			(uuid "af50eede-bcfb-4e64-96ed-00b71676cc7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SA0" bidirectional
+			(at 171.45 99.06 0)
+			(uuid "8765a338-1664-4157-9699-4531afcd3ee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 171.45 101.6 0)
+			(uuid "30c843a8-a200-401c-8e7d-598a1862841a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 171.45 104.14 0)
+			(uuid "6fe5ffb6-1b45-45f6-94dc-2625a62f39aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_GYRO" input
+			(at 171.45 91.44 0)
+			(uuid "5e92f0da-8ec3-41a9-b351-fe3b51a464b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ADCS_bdot"
+				(path "/9a605480-5564-4a0e-ba7b-19a361378337"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 50.8)
+		(size 92.71 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "eacf7a26-518c-485b-b46b-6129e072d4f7")
+		(property "Sheetname" "MCU_STM32F7"
+			(at 129.54 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_STM32F7.kicad_sch"
+			(at 129.54 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADCS_bdot"
+				(path "/9a605480-5564-4a0e-ba7b-19a361378337"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
