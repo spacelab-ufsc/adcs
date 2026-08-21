@@ -25,7 +25,7 @@ void init_sensor_spi(void) {
 
     ioctl(spi_fd, SPI_IOC_WR_MODE, &mode);
     ioctl(spi_fd, SPI_IOC_WR_MAX_SPEED_HZ, &speed);
-    
+
     printf("SPI inicializado com sucesso no fd: %d\n", spi_fd);
 }
 
@@ -49,7 +49,7 @@ uint8_t spi_read_register(uint8_t reg_address) {
     tr.cs_change = 0;
 
     ioctl(spi_fd, SPI_IOC_MESSAGE(1), &tr);
-    return rx_buf[1]; 
+    return rx_buf[1];
 }
 
 void spi_write_register(uint8_t reg_address, uint8_t value) {
@@ -59,8 +59,8 @@ void spi_write_register(uint8_t reg_address, uint8_t value) {
     uint8_t tx_buf[2];
     tx_buf[0] = (uint8_t)(reg_address & 0x7F);
     tx_buf[1] = value;
-    
-    uint8_t rx_buf[2] = { 0, 0 }; 
+
+    uint8_t rx_buf[2] = { 0, 0 };
 
     /* Inicializa a struct com zeros e atribui os campos para evitar erro de ordem e conversão */
     struct spi_ioc_transfer tr = {};
@@ -79,18 +79,18 @@ int spi_read_multiple_registers(uint8_t reg_address, uint8_t *buffer, uint8_t le
     if (spi_fd < 0) return -1;
 
     /* Tamanho máximo fixado em 16 bytes para evitar alocação dinâmica no RTOS */
-    if (length > 15) return -1; 
+    if (length > 15) return -1;
 
-    uint8_t tx_buf[16] = {0}; 
-    uint8_t rx_buf[16] = {0}; 
+    uint8_t tx_buf[16] = {0};
+    uint8_t rx_buf[16] = {0};
 
-    tx_buf[0] = reg_address; 
+    tx_buf[0] = reg_address;
 
     /* Inicializa a struct com zeros e atribui os campos para evitar erro de ordem e conversão */
     struct spi_ioc_transfer tr = {};
     tr.tx_buf = tx_buf;
     tr.rx_buf = rx_buf;
-    tr.len = length + 1; 
+    tr.len = length + 1;
     tr.speed_hz = SENSOR_SPI_SPEED;
     tr.bits_per_word = 8;
     tr.cs_change = 0;
@@ -100,6 +100,6 @@ int spi_read_multiple_registers(uint8_t reg_address, uint8_t *buffer, uint8_t le
     }
 
     memcpy(buffer, &rx_buf[1], length);
-    
+
     return 0; /* Sucesso */
 }

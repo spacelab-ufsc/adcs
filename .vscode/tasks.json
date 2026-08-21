@@ -4,7 +4,7 @@
         {
             "label": "Compilar RTEMS (CMake)",
             "type": "shell",
-            "command": "rm -rf out && cmake -S . -B out -DCMAKE_EXPORT_COMPILE_COMMANDS=ON && cmake --build out",
+            "command": "rm -rf out && cmake -S . -B out -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain-arm-rtems6.cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON && cmake --build out",
             "group": {
                 "kind": "build",
                 "isDefault": true

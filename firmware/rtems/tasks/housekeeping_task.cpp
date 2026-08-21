@@ -2,18 +2,15 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-extern "C" {
-    #include "../../pus/pus_packet.h"
-    #include "../../drivers/telemetry/adcs_telemetry.h"
-    #include "../queues/queues.h"
-}
+#include "../../pus/pus_packet.h"
+#include "../../drivers/telemetry/adcs_telemetry.h"
+#include "../queues/queues.h"
 
-// protótipo da sua função em C
-extern "C" int check_telemetry(pus_packet_t *pkt, bool hk, uint8_t subtype);
-
-// --------------------------------------
-// TASK ADCS
-// --------------------------------------
+/*
+ * --------------------------------------
+ * TASK ADCS
+ * --------------------------------------
+ */
 static inline void send_pkt(pus_packet_t *pkt)
 {
     if (!pkt) return;

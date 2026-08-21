@@ -1,4 +1,3 @@
-
 #ifndef QUEUES_H
 #define QUEUES_H
 
@@ -9,7 +8,9 @@
 extern rtems_id queue_tx;     // ADCS → PUS (pkt)
 extern rtems_id queue_uart;   // PUS → UART (bytes)
 
-// init centralizado
+/**
+ * @brief init centralizado
+ */
 void queues_init(void);
 
 #endif

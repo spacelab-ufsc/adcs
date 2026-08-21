@@ -1,3 +1,6 @@
+#ifndef RTEMS_CONFIG_H
+#define RTEMS_CONFIG_H
+
 #include <rtems.h>
 
 /* ========================================================= */
@@ -17,11 +20,11 @@
 /* 3. Limites de Recursos do Sistema Operacional             */
 /* ========================================================= */
 #define CONFIGURE_MAXIMUM_TASKS 4        /* Init + ACS + WatchDog + 1 extra */
-#define CONFIGURE_MAXIMUM_SEMAPHORES 5   
+#define CONFIGURE_MAXIMUM_SEMAPHORES 5
 #define CONFIGURE_MAXIMUM_TIMERS 2
 
 // ADICIONADO: O RTEMS precisa alocar memória para suas Message Queues (vistas no task.cpp)
-#define CONFIGURE_MAXIMUM_MESSAGE_QUEUES 5 
+#define CONFIGURE_MAXIMUM_MESSAGE_QUEUES 5
 
 /* ========================================================= */
 /* 4. Configuração de Memória                                */
@@ -32,7 +35,7 @@
 /* 5. Tarefa de Inicialização                                */
 /* ========================================================= */
 // ADICIONADO: Isso instrui o linker a iniciar o sistema através da task 'Init'
-#define CONFIGURE_RTEMS_INIT_TASKS_TABLE 
+#define CONFIGURE_RTEMS_INIT_TASKS_TABLE
 
 /* ========================================================= */
 /* Geração das Estruturas do RTEMS (Obrigatório no final)    */
@@ -40,3 +43,5 @@
 /* A macro CONFIGURE_INIT diz ao RTEMS para instanciar os objetos de configuração aqui. */
 #define CONFIGURE_INIT
 #include <rtems/confdefs.h>
+
+#endif /* RTEMS_CONFIG_H */

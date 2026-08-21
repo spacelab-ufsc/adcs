@@ -11,55 +11,63 @@
 void pus_dispatch(pus_packet_t *pkt) {
 
     // 1. VERIFICAÇÃO DE TC (ACK de recepção)
-    send_ack(0); // acceptance OK
+    pus_send_ack(0); // acceptance OK
 
     switch (pkt->service) {
 
-        // -----------------------------
-        // TEST SERVICE
-        // -----------------------------
+        /*
+         * -----------------------------
+         * TEST SERVICE
+         * -----------------------------
+         */
         case PUS_SERVICE_TEST:
-            send_test();
-            send_ack(1); // completion OK
+            pus_send_test();
+            pus_send_ack(1); // completion OK
             break;
 
-        // -----------------------------
-        // HOUSEKEEPING
-        // -----------------------------
+        /*
+         * -----------------------------
+         * HOUSEKEEPING
+         * -----------------------------
+         */
         case PUS_SERVICE_HK:
-            send_hk();
-            send_ack(1);
+            pus_send_hk();
+            pus_send_ack(1);
             break;
 
-        // -----------------------------
-        // COMMAND SERVICE (principal)
-        // -----------------------------
+        /*
+         * -----------------------------
+         * COMMAND SERVICE (principal)
+         * -----------------------------
+         */
         case PUS_SERVICE_COMMAND:
 
             switch (pkt->subtype) {
 
                 case SUBTYPE_SET_MODE:
                     adcs_set_mode(pkt->data[0]);
-                    send_ack(1);
+                    pus_send_ack(1);
                     break;
 
                 case SUBTYPE_SET_BDOT_GAIN:
                     adcs_set_bdot_gain(*(float*)&pkt->data[0]);
-                    send_ack(1);
+                    pus_send_ack(1);
                     break;
 
                 default:
-                    send_ack(2); // unknown command
+                    pus_send_ack(2); // unknown command
                     break;
             }
 
             break;
 
-        // -----------------------------
-        // INVALID SERVICE
-        // -----------------------------
+        /*
+         * -----------------------------
+         * INVALID SERVICE
+         * -----------------------------
+         */
         default:
-            send_ack(2); // service not supported
+            pus_send_ack(2); // service not supported
             break;
     }
 }

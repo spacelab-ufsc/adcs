@@ -6,7 +6,7 @@
 
 int check_telemetry(pus_packet_t *pkt, bool hk, uint8_t subtype) {
 
-    if (!pkt) return -1;
+    if (!pkt) return ADCS_TELEMETRY_ERR_NULL_PTR;
 
     pkt->apid = APID_ADCS;
 
@@ -44,7 +44,7 @@ int check_telemetry(pus_packet_t *pkt, bool hk, uint8_t subtype) {
                 break;
 
             default:
-                return -2;
+                return ADCS_TELEMETRY_ERR_UNKNOWN_HK_SUBTYPE;
         }
 
     } else {
@@ -75,9 +75,9 @@ int check_telemetry(pus_packet_t *pkt, bool hk, uint8_t subtype) {
                 break;
 
             default:
-                return -3;
+                return ADCS_TELEMETRY_ERR_UNKNOWN_TM_SUBTYPE;
         }
     }
 
-    return 0;
+    return ADCS_TELEMETRY_OK;
 }

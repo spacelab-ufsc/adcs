@@ -1,32 +1,32 @@
 /*
  * pus_crc.cpp
- * 
+ *
  * Copyright (C) 2026, SpaceLab.
- * 
+ *
  * This file is part of ACS B-DOT.
- * 
+ *
  * ACS B-DOT is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * ACS B-DOT is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with ACS B-DOT. If not, see <http:/\/www.gnu.org/licenses/>.
- * 
+ *
  */
 
 /**
  * \brief CRC of PUS implementation.
- * 
+ *
  * \author Felipe Costa Juliano <felipecostajuliano@live.com>
- * 
+ *
  * \version 0.1
- * 
+ *
  * \date 09/04/2026
  */
 
@@ -45,11 +45,11 @@ uint16_t crc16_ccitt(const uint8_t *data, uint16_t length) {
             }
 
             else {
-                
+
                 crc <<= 1;
-            
+
             }
-                
+
         }
     }
 

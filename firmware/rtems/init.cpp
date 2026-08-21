@@ -2,8 +2,8 @@
 #include <bsp.h>
 #include <rtems/bspIo.h> /* Adicionado para resolver o erro do printk */
 
-/* 
- * Cabeçalho onde queues_init() está declarado. 
+/*
+ * Cabeçalho onde queues_init() está declarado.
  * Ajuste o nome da pasta ou arquivo se for diferente no seu projeto.
  */
 #include "queues/queues.h"
@@ -28,7 +28,7 @@ extern "C" rtems_task Init(rtems_task_argument argument) {
     printk("\n--- Iniciando Computador de Bordo (STM32F7) ---\n");
 
     queues_init();
-    
+
     /* 1. Criação da tarefa do loop de controle */
     status = rtems_task_create(
         acs_task_name,
@@ -51,7 +51,7 @@ extern "C" rtems_task Init(rtems_task_argument argument) {
         printk("Erro Crítico: Falha ao iniciar a tarefa ACS (%s)\n", rtems_status_text(status));
     }
 
-    /* 3. Limpeza: A tarefa Init finalizou o escalonamento inicial, 
+    /* 3. Limpeza: A tarefa Init finalizou o escalonamento inicial,
           podemos deletá-la para liberar recursos do sistema. */
     printk("Setup concluído. Deletando tarefa Init.\n");
     rtems_task_delete(RTEMS_SELF);
@@ -67,7 +67,7 @@ rtems_task acs_control_task(rtems_task_argument argument) {
 
     /* Define a frequência da malha de controle: 10 Hz */
     /* Assumindo que o tick configurado no rtems_config.c é de 1ms */
-    rtems_interval ticks_per_period = rtems_clock_get_ticks_per_second() / 10; 
+    rtems_interval ticks_per_period = rtems_clock_get_ticks_per_second() / 10;
 
     while(1) {
         /* Ponto de instrumentação/debug */
@@ -81,11 +81,11 @@ rtems_task acs_control_task(rtems_task_argument argument) {
          * 3. Cálculo da Lei de Controle
          * 4. Comando dos Atuadores (ex: PWM para Bobinas Magnéticas/Torquers)
          */
-        
+
         /* Suspende a execução desta tarefa até o próximo período.
            Isso garante o determinismo temporal da malha e libera
            o processador para executar tarefas de menor prioridade. */
-        rtems_task_wake_after(ticks_per_period); 
+        rtems_task_wake_after(ticks_per_period);
     }
 }
 
