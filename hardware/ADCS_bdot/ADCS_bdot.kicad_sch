@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "9a605480-5564-4a0e-ba7b-19a361378337")
 	(paper "A4")
 	(lib_symbols)
@@ -19,11 +19,13 @@
 			(color 132 0 0 1)
 		)
 		(fill
-			(color 0 194 0 1.0000)
+			(color 0 194 0 1)
 		)
 		(uuid "09105f10-a949-43fe-bd4d-bca407919f43")
 		(property "Sheetname" "Power"
 			(at 71.12 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,12 +35,14 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 71.12 139.0146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "PWR_IN" input
@@ -73,11 +77,13 @@
 			(color 132 0 0 1)
 		)
 		(fill
-			(color 0 194 0 1.0000)
+			(color 0 194 0 1)
 		)
 		(uuid "50f9c94e-35fa-4018-9fe4-55026ddad35f")
 		(property "Sheetname" "Magnetometer"
 			(at 129.54 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,12 +93,14 @@
 		)
 		(property "Sheetfile" "Magnetometer.kicad_sch"
 			(at 129.54 139.0146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "INT_MAG" output
@@ -157,11 +165,13 @@
 			(color 132 0 0 1)
 		)
 		(fill
-			(color 0 194 0 1.0000)
+			(color 0 194 0 1)
 		)
 		(uuid "e00c3143-0934-42d9-9950-a1681b014fb0")
 		(property "Sheetname" "Gyroscope"
 			(at 129.54 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,12 +181,14 @@
 		)
 		(property "Sheetfile" "Gyroscope.kicad_sch"
 			(at 129.54 111.0746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "DRDY_GYRO" output
@@ -261,11 +273,13 @@
 			(color 132 0 0 1)
 		)
 		(fill
-			(color 0 194 0 1.0000)
+			(color 0 194 0 1)
 		)
 		(uuid "eacf7a26-518c-485b-b46b-6129e072d4f7")
 		(property "Sheetname" "MCU_STM32F7"
 			(at 129.54 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,12 +289,14 @@
 		)
 		(property "Sheetfile" "MCU_STM32F7.kicad_sch"
 			(at 129.54 83.1346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(instances
