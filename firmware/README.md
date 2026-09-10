@@ -8,6 +8,7 @@
 <p align="center">
     <a href="#overview">Overview</a> •
     <a href="#dependencies">Dependencies</a> •
+    <a href="#rtems-toolchain">RTEMS toolchain</a> •
     <a href="#compiling-and-building">Compiling and building</a> •
     <a href="#flashing">Flashing</a>
 </p>
@@ -41,6 +42,22 @@ sudo apt install gcc-arm-none-eabi stlink-tools
 ```bash
 sudo dnf install gcc-arm-linux-gnu stlink
 ```
+
+## RTEMS toolchain
+
+`scripts/install-toolchain.sh` builds the RTEMS 6.2 `arm-rtems6` cross-compiler and the `arm/stm32f4` BSP from source via the RTEMS Source Builder, and installs them to `toolchain/` in this directory (git-ignored). This is a one-time setup step, separate from the app build in the next section.
+
+```bash
+./scripts/install-toolchain.sh
+```
+
+Override the install location with `RTEMS_PREFIX` (also update `RTEMS_PREFIX`/`RTEMS_PKG_CONFIG_PATH` passed to CMake if you do):
+
+```bash
+RTEMS_PREFIX=/opt/rtems/6 ./scripts/install-toolchain.sh
+```
+
+The build needs `curl`, `tar`, and a native C/C++/Python toolchain (`gcc`, `g++`, `make`, `bison`, `flex`, `texinfo`, `python3-dev`, `git`), plus `pax` if `--with-rtems-tests` is enabled (it is, by default). Package names differ per distro — see the [RTEMS POSIX host guide](https://ftp.rtems.org/pub/rtems/releases/6/6.2/docs/html/user/hosts/posix.html) for the exact list for your system. Expect the build to take a while (it builds gcc, newlib, and gdb from source).
 
 ## Compiling and building
 
